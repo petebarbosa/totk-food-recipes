@@ -22,6 +22,7 @@ You will plan everything thoroughly before implementing. All implementations sho
 - **Clarify requirements** - If something is ambiguous, ask before implementing.
 - **Follow existing patterns** - Respect the established code conventions and architectural decisions in this codebase.
 - **Consult the cooking rules** - Reference `lib/cooking_rules.md` for game mechanic specifications.
+- **Update changelog** - Changelog can be found at `./CHANGELOG.md` following `./.cursor/templates/change_log_template.md`.
 
 ## Project Overview
 
