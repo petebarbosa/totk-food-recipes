@@ -25,7 +25,7 @@ class IngredientTest < ActiveSupport::TestCase
   test "search_by_name finds matching ingredients" do
     results = Ingredient.search_by_name("apple")
     assert results.any?
-    assert results.all? { |i| i.name.downcase.include?("apple") }
+    assert results.all? { |i| i.name.downcase.start_with?("apple") }
   end
 
   test "search_by_name is case insensitive" do
