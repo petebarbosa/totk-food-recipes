@@ -1,5 +1,6 @@
-<%= button_to add_ingredient_cooking_path, method: :post, params: { ingredient_id: ingredient.id }, class: "w-full text-left", data: { turbo_stream: true, action: "click->search#close" } do %>
-  <div class="ingredient-card p-3 bg-stone-700 hover:bg-stone-600 rounded-lg cursor-pointer transition-colors border border-stone-600 hover:border-amber-500/50">
+<div class="ingredient-card p-3 bg-stone-700 hover:bg-stone-600 rounded-lg cursor-pointer transition-colors border border-stone-600 hover:border-amber-500/50"
+     data-action="click->search#addIngredient"
+     data-ingredient-id="<%= ingredient.id %>">
     <div class="flex items-center justify-between">
       <div>
         <h4 class="font-medium text-stone-100"><%= ingredient.name %></h4>
@@ -14,5 +15,4 @@
         <% end %>
       </div>
     </div>
-  </div>
-<% end %>
+</div>

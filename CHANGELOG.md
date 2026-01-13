@@ -4,6 +4,22 @@ This document tracks significant changes made to the codebase to provide context
 
 ---
 
+## [2026-01-13] - Fix ingredient click not adding to cooking pot
+
+**Type:** Bug Fix
+
+**Summary:** Changed ingredient selection from button_to form to JavaScript fetch with explicit Turbo Stream handling
+
+**Why:** The button_to form inside the turbo-frame wasn't processing Turbo Stream responses correctly
+
+**Files Changed:**
+- `app/views/ingredients/_ingredient.html.erb` - Replaced button_to with clickable div using Stimulus action
+- `app/javascript/controllers/search_controller.js` - Added addIngredient method with fetch POST and Turbo.renderStreamMessage
+
+**Related:** N/A
+
+---
+
 ## [2026-01-13] - Fix ingredient search not updating on subsequent keystrokes
 
 **Type:** Bug Fix

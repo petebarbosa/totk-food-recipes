@@ -73,9 +73,9 @@ export default class extends Controller {
       case "Enter":
         event.preventDefault()
         if (this.selectedIndex >= 0 && items[this.selectedIndex]) {
-          const button = items[this.selectedIndex].querySelector("button")
-          if (button) {
-            button.click()
+          const ingredientCard = items[this.selectedIndex].querySelector(".ingredient-card")
+          if (ingredientCard) {
+            ingredientCard.click()
           }
         }
         break
@@ -100,6 +100,31 @@ export default class extends Controller {
     this.clearResults()
     this.inputTarget.value = ""
     this.selectedIndex = -1
+  }
+
+  async addIngredient(event) {
+    const ingredientId = event.currentTarget.dataset.ingredientId
+
+    try {
+      const response = await fetch("/cooking/add_ingredient", {
+        method: "POST",
+        headers: {
+          "Accept": "text/vnd.turbo-stream.html",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "X-CSRF-Token": document.querySelector('meta[name="csrf-token"]').content
+        },
+        body: `ingredient_id=${ingredientId}`
+      })
+
+      if (response.ok) {
+        const html = await response.text()
+        Turbo.renderStreamMessage(html)
+      }
+    } catch (error) {
+      console.error("Add ingredient error:", error)
+    }
+
+    this.close()
   }
 
   clearResults() {
