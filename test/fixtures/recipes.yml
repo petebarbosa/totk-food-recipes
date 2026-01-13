@@ -1,0 +1,24 @@
+# Recipe fixtures for testing
+simmered_fruit:
+  name: Simmered Fruit
+  base_hearts: 0
+
+fruit_pie:
+  name: Fruit Pie
+  base_hearts: 0
+
+mushroom_skewer:
+  name: Mushroom Skewer
+  base_hearts: 0
+
+meat_skewer:
+  name: Meat Skewer
+  base_hearts: 0
+
+apple_pie:
+  name: Apple Pie
+  base_hearts: 0
+
+dubious_food:
+  name: Dubious Food
+  base_hearts: 0

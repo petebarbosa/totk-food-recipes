@@ -1,0 +1,46 @@
+<% recipe = match[:recipe] %>
+<div class="recipe-card bg-stone-700/50 rounded-lg p-3 border <%= match[:fully_matched] ? 'border-emerald-500/50' : 'border-stone-600' %> hover:border-amber-500/50 transition-colors">
+  <div class="flex items-start justify-between gap-2">
+    <div class="flex-1 min-w-0">
+      <h4 class="font-medium text-stone-100 truncate"><%= recipe.name %></h4>
+      <p class="text-xs text-stone-400 mt-1">
+        <%= recipe.requirements_summary.truncate(50) %>
+      </p>
+    </div>
+
+    <!-- Match Badge -->
+    <div class="flex-shrink-0">
+      <span class="match-badge inline-flex items-center px-2 py-1 rounded-full text-xs font-medium <%= match[:fully_matched] ? 'bg-emerald-900/50 text-emerald-400' : 'bg-amber-900/50 text-amber-400' %>">
+        <%= match[:matched_count] %>/<%= match[:total_required] %>
+        <% if match[:fully_matched] %>
+          ✓
+        <% end %>
+      </span>
+    </div>
+  </div>
+
+  <!-- Progress Bar -->
+  <div class="mt-2 h-1 bg-stone-600 rounded-full overflow-hidden">
+    <div class="h-full <%= match[:fully_matched] ? 'bg-emerald-500' : 'bg-amber-500' %> transition-all duration-300"
+         style="width: <%= match[:percentage] %>%"></div>
+  </div>
+
+  <!-- Requirements Details -->
+  <div class="mt-2 flex flex-wrap gap-1">
+    <% match[:matched_requirements].each do |mr| %>
+      <span class="text-xs px-2 py-0.5 bg-emerald-900/30 text-emerald-400 rounded">
+        <%= mr[:requirement].requirement_type == 'specific' ? mr[:requirement].requirement_value : "Any #{mr[:requirement].requirement_value}" %>
+      </span>
+    <% end %>
+    <% match[:missing_requirements].each do |req| %>
+      <span class="text-xs px-2 py-0.5 bg-stone-600/50 text-stone-400 rounded">
+        <%= req.requirement_type == 'specific' ? req.requirement_value : "Any #{req.requirement_value}" %>
+      </span>
+    <% end %>
+  </div>
+
+  <!-- Select Recipe Button -->
+  <div class="mt-3">
+    <%= button_to "Cook this recipe", select_recipe_cooking_path, method: :post, params: { recipe_id: recipe.id }, class: "w-full text-center text-sm px-3 py-1.5 bg-amber-600 hover:bg-amber-500 text-stone-900 font-medium rounded-lg transition-colors", data: { turbo_stream: true } %>
+  </div>
+</div>

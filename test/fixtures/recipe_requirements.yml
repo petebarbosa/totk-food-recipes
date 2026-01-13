@@ -1,0 +1,79 @@
+# Recipe requirement fixtures for testing
+
+# Simmered Fruit - requires any Fruit
+simmered_fruit_req:
+  recipe: simmered_fruit
+  ingredient:
+  requirement_type: category
+  requirement_value: Fruit
+
+# Mushroom Skewer - requires any Mushroom
+mushroom_skewer_req:
+  recipe: mushroom_skewer
+  ingredient:
+  requirement_type: category
+  requirement_value: Mushroom
+
+# Meat Skewer - requires any Meat
+meat_skewer_req:
+  recipe: meat_skewer
+  ingredient:
+  requirement_type: category
+  requirement_value: Meat
+
+# Fruit Pie requirements
+fruit_pie_fruit:
+  recipe: fruit_pie
+  ingredient:
+  requirement_type: category
+  requirement_value: Fruit
+
+fruit_pie_wheat:
+  recipe: fruit_pie
+  ingredient: tabantha_wheat
+  requirement_type: specific
+  requirement_value: Tabantha Wheat
+
+fruit_pie_sugar:
+  recipe: fruit_pie
+  ingredient: cane_sugar
+  requirement_type: specific
+  requirement_value: Cane Sugar
+
+fruit_pie_butter:
+  recipe: fruit_pie
+  ingredient: goat_butter
+  requirement_type: specific
+  requirement_value: Goat Butter
+
+# Apple Pie requirements
+apple_pie_apple:
+  recipe: apple_pie
+  ingredient: apple
+  requirement_type: specific
+  requirement_value: Apple
+
+apple_pie_wheat:
+  recipe: apple_pie
+  ingredient: tabantha_wheat
+  requirement_type: specific
+  requirement_value: Tabantha Wheat
+
+apple_pie_sugar:
+  recipe: apple_pie
+  ingredient: cane_sugar
+  requirement_type: specific
+  requirement_value: Cane Sugar
+
+apple_pie_butter:
+  recipe: apple_pie
+  ingredient: goat_butter
+  requirement_type: specific
+  requirement_value: Goat Butter
+
+# Dubious Food - logic requirement
+dubious_food_req:
+  recipe: dubious_food
+  ingredient:
+  requirement_type: logic
+  requirement_value: Incompatible Ingredients

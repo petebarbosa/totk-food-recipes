@@ -1,0 +1,54 @@
+ID,Name,Category,Hearts_Raw,Effect_Type,Effect_Points,Boost_Type
+1,Apple,Fruit,0.5,None,0,None
+2,Golden Apple,Fruit,1.5,None,0,Critical_Cook
+3,Wildberry,Fruit,0.5,None,0,None
+4,Palm Fruit,Fruit,1.0,None,0,None
+5,Hylian Shroom,Mushroom,0.5,None,0,None
+6,Skyshroom,Mushroom,0.5,None,0,None
+7,Hylian Rice,Grain,1.0,None,0,None
+8,Tabantha Wheat,Grain,1.0,None,0,None
+9,Cane Sugar,Seasoning,0,None,0,Duration_Up
+10,Goat Butter,Seasoning,0,None,0,Duration_Up
+11,Goron Spice,Seasoning,0,None,0,Duration_Up
+12,Rock Salt,Seasoning,0,None,0,None
+13,Hylian Tomato,Vegetable,1.0,None,0,None
+14,Sun Pumpkin,Vegetable,0.5,Gloom Recovery,1,None
+15,Sundelion,Herb,0,Gloom Recovery,3,None
+16,Stambulb,Herb,0.5,Stamina Recovery,1,None
+17,Spicy Pepper,Fruit,0.5,Cold Resistance,1,None
+18,Chillshroom,Mushroom,0.5,Heat Resistance,2,None
+19,Zapshroom,Mushroom,0.5,Shock Resistance,2,None
+20,Sunshroom,Mushroom,0.5,Cold Resistance,2,None
+21,Silent Princess,Flower,1.0,Stealth Up,3,None
+22,Blue Nightshade,Herb,0,Stealth Up,1,None
+23,Mighty Bananas,Fruit,0.5,Attack Up,2,None
+24,Mighty Thistle,Herb,0,Attack Up,1,None
+25,Armoranth,Herb,0,Defense Up,1,None
+26,Ironshroom,Mushroom,0.5,Defense Up,2,None
+27,Razorshroom,Mushroom,0.5,Attack Up,2,None
+28,Raw Meat,Meat,1.0,None,0,None
+29,Raw Prime Meat,Meat,1.5,None,0,None
+30,Raw Gourmet Meat,Meat,3.0,None,0,None
+31,Bird Drumstick,Meat,1.0,None,0,None
+32,Raw Bird Thigh,Meat,1.5,None,0,None
+33,Raw Whole Bird,Meat,3.0,None,0,None
+34,Hateno Cheese,Dairy,1.0,None,0,None
+35,Fresh Milk,Dairy,0.5,None,0,Duration_Up
+36,Bird Egg,Dairy,1.0,None,0,Duration_Up
+37,Hyrule Bass,Fish,1.0,None,0,None
+38,Hearty Bass,Fish,2.0,Extra Hearts,2,None
+39,Staminoka Bass,Fish,1.0,Stamina Recovery,2,None
+40,Sanke Carp,Fish,1.0,Attack Up,2,None
+41,Glowing Cave Fish,Fish,1.0,Glow,2,None
+42,Brightcap,Mushroom,0.5,Glow,1,None
+43,Sticky Frog,Critter,0,Slip Resistance,2,None
+44,Sticky Lizard,Critter,0,Slip Resistance,1,None
+45,Hightail Lizard,Critter,0,Speed Up,1,None
+46,Hot-Footed Frog,Critter,0,Speed Up,2,None
+47,Thunderwing Butterfly,Critter,0,Shock Resistance,1,None
+48,Electric Darner,Critter,0,Shock Resistance,2,None
+49,Bokoblin Guts,Monster Part,0,None,0,Duration_Large
+50,Keese Eyeball,Monster Part,0,None,0,Duration_Small
+51,Molduga Fin,Monster Part,0,None,0,Duration_Large
+52,Star Fragment,Mineral,0,None,0,Critical_Cook
+53,Dark Clump,Herb,0,Gloom Resistance,1,Duration_Up

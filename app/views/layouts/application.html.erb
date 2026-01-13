@@ -23,8 +23,17 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
-    <main class="container mx-auto mt-28 px-5 flex">
+  <body class="bg-stone-900 min-h-screen">
+    <header class="bg-gradient-to-r from-emerald-900 to-emerald-800 shadow-lg border-b-2 border-amber-500/30">
+      <div class="container mx-auto px-4 py-4">
+        <h1 class="text-2xl font-bold text-amber-400 flex items-center gap-2">
+          <span class="text-3xl">🍳</span>
+          TotK Recipe Calculator
+        </h1>
+        <p class="text-emerald-200 text-sm mt-1">Tears of the Kingdom Cooking Simulator</p>
+      </div>
+    </header>
+    <main class="container mx-auto px-4 py-6">
       <%= yield %>
     </main>
   </body>

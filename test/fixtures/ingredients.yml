@@ -1,0 +1,88 @@
+# Ingredient fixtures for testing
+apple:
+  name: Apple
+  category: Fruit
+  hearts_raw: 0.5
+  effect_type:
+  effect_points: 0
+  boost_type:
+
+golden_apple:
+  name: Golden Apple
+  category: Fruit
+  hearts_raw: 1.5
+  effect_type:
+  effect_points: 0
+  boost_type: Critical_Cook
+
+hylian_shroom:
+  name: Hylian Shroom
+  category: Mushroom
+  hearts_raw: 0.5
+  effect_type:
+  effect_points: 0
+  boost_type:
+
+spicy_pepper:
+  name: Spicy Pepper
+  category: Fruit
+  hearts_raw: 0.5
+  effect_type: Cold Resistance
+  effect_points: 1
+  boost_type:
+
+sunshroom:
+  name: Sunshroom
+  category: Mushroom
+  hearts_raw: 0.5
+  effect_type: Cold Resistance
+  effect_points: 2
+  boost_type:
+
+chillshroom:
+  name: Chillshroom
+  category: Mushroom
+  hearts_raw: 0.5
+  effect_type: Heat Resistance
+  effect_points: 2
+  boost_type:
+
+raw_meat:
+  name: Raw Meat
+  category: Meat
+  hearts_raw: 1.0
+  effect_type:
+  effect_points: 0
+  boost_type:
+
+tabantha_wheat:
+  name: Tabantha Wheat
+  category: Grain
+  hearts_raw: 1.0
+  effect_type:
+  effect_points: 0
+  boost_type:
+
+cane_sugar:
+  name: Cane Sugar
+  category: Seasoning
+  hearts_raw: 0
+  effect_type:
+  effect_points: 0
+  boost_type: Duration_Up
+
+goat_butter:
+  name: Goat Butter
+  category: Seasoning
+  hearts_raw: 0
+  effect_type:
+  effect_points: 0
+  boost_type: Duration_Up
+
+hylian_tomato:
+  name: Hylian Tomato
+  category: Vegetable
+  hearts_raw: 1.0
+  effect_type:
+  effect_points: 0
+  boost_type:

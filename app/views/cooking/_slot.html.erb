@@ -1,0 +1,17 @@
+<div class="cooking-slot aspect-square rounded-lg border-2 <%= ingredient ? 'border-amber-500/50 bg-stone-700' : 'border-dashed border-stone-600 bg-stone-800/50' %> flex items-center justify-center relative group">
+  <% if ingredient %>
+    <div class="text-center p-1 w-full">
+      <div class="text-2xl mb-1">
+        <%= ingredient_emoji(ingredient) %>
+      </div>
+      <p class="text-xs text-stone-300 truncate px-1" title="<%= ingredient.name %>">
+        <%= truncate(ingredient.name, length: 8) %>
+      </p>
+    </div>
+    <%= button_to remove_ingredient_cooking_path, method: :delete, params: { slot_index: slot_index }, class: "absolute -top-2 -right-2 w-5 h-5 bg-red-600 hover:bg-red-500 text-white rounded-full text-xs opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center", data: { turbo_stream: true } do %>
+      ×
+    <% end %>
+  <% else %>
+    <span class="text-stone-600 text-2xl">+</span>
+  <% end %>
+</div>

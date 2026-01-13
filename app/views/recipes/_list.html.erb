@@ -1,0 +1,13 @@
+<% if recipes.any? %>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+    <% recipes.each do |match| %>
+      <%= render "recipes/card", match: match, pot_ingredients: pot_ingredients %>
+    <% end %>
+  </div>
+<% else %>
+  <div class="text-center py-8 text-stone-500">
+    <p class="text-4xl mb-3">📜</p>
+    <p>Add ingredients to see matching recipes</p>
+    <p class="text-sm mt-2 text-stone-600">Search and add ingredients to your cooking pot</p>
+  </div>
+<% end %>

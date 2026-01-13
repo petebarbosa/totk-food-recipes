@@ -1,0 +1,14 @@
+<div class="grid grid-cols-5 gap-2">
+  <% 5.times do |i| %>
+    <% ingredient = ingredients[i] %>
+    <%= render "cooking/slot", ingredient: ingredient, slot_index: i %>
+  <% end %>
+</div>
+
+<% if ingredients.any? %>
+  <div class="mt-3 text-center">
+    <p class="text-sm text-stone-400">
+      <span class="text-amber-400"><%= ingredients.size %></span>/5 ingredients
+    </p>
+  </div>
+<% end %>

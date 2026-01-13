@@ -1,0 +1,73 @@
+<% if result && result[:recipe_name] %>
+  <section class="bg-gradient-to-br from-stone-800 to-stone-900 rounded-xl p-4 shadow-lg border border-amber-500/30">
+    <h3 class="text-lg font-semibold text-amber-400 mb-3 flex items-center gap-2">
+      <span>✨</span> Cooking Preview
+    </h3>
+
+    <div class="space-y-3">
+      <!-- Dish Name -->
+      <div class="text-center py-2 bg-stone-700/50 rounded-lg">
+        <h4 class="text-xl font-bold text-stone-100"><%= result[:recipe_name] %></h4>
+      </div>
+
+      <!-- Stats Grid -->
+      <div class="grid grid-cols-2 gap-2 text-sm">
+        <!-- Hearts -->
+        <div class="bg-stone-700/30 rounded-lg p-2">
+          <span class="text-stone-400">Hearts</span>
+          <p class="text-red-400 font-semibold">
+            ❤️ <%= result[:hearts_restored] %>
+          </p>
+        </div>
+
+        <!-- Effect -->
+        <div class="bg-stone-700/30 rounded-lg p-2">
+          <span class="text-stone-400">Effect</span>
+          <p class="font-semibold <%= result[:effect_type] ? 'text-emerald-400' : 'text-stone-500' %>">
+            <% if result[:effect_type] %>
+              <%= result[:effect_type] %>
+              <% if result[:effect_level] %>
+                <span class="text-amber-400">(Lv.<%= result[:effect_level] %>)</span>
+              <% end %>
+            <% else %>
+              None
+            <% end %>
+          </p>
+        </div>
+
+        <!-- Duration -->
+        <% if result[:effect_type] && result[:duration_seconds] > 0 %>
+          <div class="bg-stone-700/30 rounded-lg p-2">
+            <span class="text-stone-400">Duration</span>
+            <p class="text-sky-400 font-semibold">
+              ⏱️ <%= format_duration(result[:duration_seconds]) %>
+            </p>
+          </div>
+        <% end %>
+
+        <!-- Critical Chance -->
+        <div class="bg-stone-700/30 rounded-lg p-2">
+          <span class="text-stone-400">Critical</span>
+          <p class="font-semibold <%= result[:critical_cook_chance] == 100 ? 'text-yellow-400' : 'text-stone-400' %>">
+            ⭐ <%= result[:critical_cook_chance] %>%
+          </p>
+        </div>
+      </div>
+
+      <!-- Critical Bonus Preview -->
+      <% if result[:critical_bonus_preview].any? %>
+        <div class="text-xs text-stone-400 bg-stone-700/30 rounded-lg p-2">
+          <p class="text-stone-500 mb-1">Possible critical bonuses:</p>
+          <p class="text-amber-400/70"><%= result[:critical_bonus_preview].join(" • ") %></p>
+        </div>
+      <% end %>
+    </div>
+  </section>
+<% else %>
+  <section class="bg-stone-800/50 rounded-xl p-4 border border-dashed border-stone-700">
+    <div class="text-center text-stone-500">
+      <p class="text-4xl mb-2">🥘</p>
+      <p>Add ingredients to see cooking preview</p>
+    </div>
+  </section>
+<% end %>

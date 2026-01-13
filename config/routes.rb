@@ -9,6 +9,20 @@ Rails.application.routes.draw do
   # get "manifest" => "rails/pwa#manifest", as: :pwa_manifest
   # get "service-worker" => "rails/pwa#service_worker", as: :pwa_service_worker
 
-  # Defines the root path route ("/")
-  # root "posts#index"
+  root "home#index"
+
+  resources :ingredients, only: [:index] do
+    collection do
+      get :search
+    end
+  end
+
+  resources :recipes, only: [:index, :show]
+
+  resource :cooking, only: [:update], controller: "cooking" do
+    post :add_ingredient
+    delete :remove_ingredient
+    post :select_recipe
+    delete :clear
+  end
 end

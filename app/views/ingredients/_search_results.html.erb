@@ -1,0 +1,13 @@
+<% if ingredients.any? %>
+  <div class="bg-stone-800 border border-stone-600 rounded-lg shadow-xl max-h-64 overflow-y-auto" data-search-target="results">
+    <div class="space-y-1 p-2">
+      <% ingredients.each_with_index do |ingredient, index| %>
+        <div data-search-target="item" data-index="<%= index %>">
+          <%= render "ingredients/ingredient", ingredient: ingredient %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+<% else %>
+  <div data-search-target="results"></div>
+<% end %>
