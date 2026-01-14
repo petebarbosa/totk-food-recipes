@@ -4,6 +4,23 @@ This document tracks significant changes made to the codebase to provide context
 
 ---
 
+## [2026-01-13] - Enable smart ingredient search with word-start matching
+
+**Type:** Feature
+
+**Summary:** Improved ingredient search to use word-start matching for all queries (matches if any word in the name starts with the query)
+
+**Why:** Better UX - typing "G" shows "Goat Butter" and "Golden Apple" (words starting with G) but not "Light Dragon's Claw" (G is mid-word in "Dragon's"). Typing "apple" shows "Apple" and "Golden Apple" but not "Sapphire". Typing "ca" shows "Cane Sugar" but not "Brightcap"
+
+**Files Changed:**
+- `app/models/ingredient.rb` - Updated `search_by_name` scope with conditional matching logic
+- `test/models/ingredient_test.rb` - Updated and added tests for new search behavior
+- `test/fixtures/ingredients.yml` - Added fixture for testing mid-word exclusion
+
+**Related:** N/A
+
+---
+
 ## [2026-01-13] - Comprehensive ingredient database update
 
 **Type:** Data

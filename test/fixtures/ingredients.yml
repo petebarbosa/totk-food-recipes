@@ -86,3 +86,11 @@ hylian_tomato:
   effect_type:
   effect_points: 0
   boost_type:
+
+light_dragons_claw:
+  name: Light Dragon's Claw
+  category: Monster Part
+  hearts_raw: 0
+  effect_type:
+  effect_points: 0
+  boost_type: Duration_Large

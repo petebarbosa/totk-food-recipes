@@ -19,7 +19,12 @@ class Ingredient < ApplicationRecord
   validates :category, presence: true
 
   scope :search_by_name, ->(query) {
-    where("LOWER(name) LIKE ?", "#{query.downcase}%") if query.present?
+    return none unless query.present?
+
+    sanitized_query = query.downcase
+
+    # Match if any word starts with the query (name starts with it, or a word after a space starts with it)
+    where("LOWER(name) LIKE ? OR LOWER(name) LIKE ?", "#{sanitized_query}%", "% #{sanitized_query}%")
   }
 
   scope :by_category, ->(category) {
