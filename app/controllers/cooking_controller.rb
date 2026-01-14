@@ -91,10 +91,10 @@ class CookingController < ApplicationController
     end
 
     render turbo_stream: [
-      turbo_stream.replace("cooking_pot", partial: "cooking/pot", locals: { ingredients: @pot_ingredients }),
-      turbo_stream.replace("recipe_results", partial: "recipes/list", locals: { recipes: @matching_recipes, pot_ingredients: @pot_ingredients }),
-      turbo_stream.replace("cooking_result", partial: "cooking/result", locals: { result: @cooking_result }),
-      turbo_stream.replace("ingredient_suggestions", partial: "ingredients/search_results", locals: { ingredients: [] })
+      turbo_stream.update("cooking_pot", partial: "cooking/pot", locals: { ingredients: @pot_ingredients }),
+      turbo_stream.update("recipe_results", partial: "recipes/list", locals: { recipes: @matching_recipes, pot_ingredients: @pot_ingredients }),
+      turbo_stream.update("cooking_result", partial: "cooking/result", locals: { result: @cooking_result }),
+      turbo_stream.update("ingredient_suggestions", partial: "ingredients/search_results", locals: { ingredients: [] })
     ]
   end
 end

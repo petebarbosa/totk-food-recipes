@@ -4,6 +4,29 @@ This document tracks significant changes made to the codebase to provide context
 
 ---
 
+## [2026-01-13] - Fix remove ingredient/clear pot/select recipe not updating frontend
+
+**Type:** Bug Fix
+
+**Summary:** Fixed two issues preventing cooking pot actions from updating the UI:
+1. Changed button_to forms to JavaScript fetch with explicit Turbo Stream handling
+2. Changed turbo_stream.replace to turbo_stream.update to preserve turbo-frame wrappers
+
+**Why:** 
+- The button_to forms inside turbo-frames weren't processing Turbo Stream responses correctly
+- Using `turbo_stream.replace` removed the turbo-frame wrapper elements, causing subsequent operations to fail (no target element found)
+
+**Files Changed:**
+- `app/controllers/cooking_controller.rb` - Changed turbo_stream.replace to turbo_stream.update in render_cooking_updates
+- `app/javascript/controllers/cooking_controller.js` - Added removeIngredient, clearPot, and selectRecipe methods with fetch and Turbo.renderStreamMessage
+- `app/views/cooking/_slot.html.erb` - Replaced button_to with button using Stimulus action
+- `app/views/home/index.html.erb` - Replaced button_to with button using Stimulus action
+- `app/views/recipes/_card.html.erb` - Replaced button_to with button using Stimulus action
+
+**Related:** [2026-01-13] - Fix ingredient click not adding to cooking pot
+
+---
+
 ## [2026-01-13] - Hide cook button for non-pot recipes & remove redundant effect variants
 
 ### Changed

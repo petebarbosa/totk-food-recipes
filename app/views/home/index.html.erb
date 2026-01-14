@@ -27,7 +27,11 @@
         <h2 class="text-lg font-semibold text-amber-400 flex items-center gap-2">
           <span>🥘</span> Cooking Pot
         </h2>
-        <%= button_to "Clear", clear_cooking_path, method: :delete, class: "text-xs px-3 py-1 bg-red-900/50 hover:bg-red-800 text-red-200 rounded-lg transition-colors", data: { turbo_stream: true } %>
+        <button type="button"
+                class="text-xs px-3 py-1 bg-red-900/50 hover:bg-red-800 text-red-200 rounded-lg transition-colors"
+                data-action="click->cooking#clearPot">
+          Clear
+        </button>
       </div>
       <turbo-frame id="cooking_pot">
         <%= render "cooking/pot", ingredients: @pot_ingredients %>

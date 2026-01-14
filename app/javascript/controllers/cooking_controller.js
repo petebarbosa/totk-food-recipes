@@ -4,23 +4,76 @@ export default class extends Controller {
   static targets = ["slot", "form"]
 
   connect() {
-    // Cooking controller is mainly for coordinating UI updates
-    // Most logic is handled server-side via Turbo Streams
+    // Cooking controller coordinates UI updates via Turbo Streams
   }
 
-  addIngredient(event) {
-    // Handled by Turbo Stream response
+  async removeIngredient(event) {
+    event.preventDefault()
+    event.stopPropagation()
+    const slotIndex = event.currentTarget.dataset.slotIndex
+
+    try {
+      const response = await fetch("/cooking/remove_ingredient", {
+        method: "DELETE",
+        headers: {
+          "Accept": "text/vnd.turbo-stream.html",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "X-CSRF-Token": document.querySelector('meta[name="csrf-token"]').content
+        },
+        body: `slot_index=${slotIndex}`
+      })
+
+      if (response.ok) {
+        const html = await response.text()
+        Turbo.renderStreamMessage(html)
+      }
+    } catch (error) {
+      console.error("Remove ingredient error:", error)
+    }
   }
 
-  removeIngredient(event) {
-    // Handled by Turbo Stream response
+  async clearPot(event) {
+    event.preventDefault()
+
+    try {
+      const response = await fetch("/cooking/clear", {
+        method: "DELETE",
+        headers: {
+          "Accept": "text/vnd.turbo-stream.html",
+          "X-CSRF-Token": document.querySelector('meta[name="csrf-token"]').content
+        }
+      })
+
+      if (response.ok) {
+        const html = await response.text()
+        Turbo.renderStreamMessage(html)
+      }
+    } catch (error) {
+      console.error("Clear pot error:", error)
+    }
   }
 
-  selectRecipe(event) {
-    // Handled by Turbo Stream response
-  }
+  async selectRecipe(event) {
+    event.preventDefault()
+    const recipeId = event.currentTarget.dataset.recipeId
 
-  clear() {
-    // Handled by Turbo Stream response
+    try {
+      const response = await fetch("/cooking/select_recipe", {
+        method: "POST",
+        headers: {
+          "Accept": "text/vnd.turbo-stream.html",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "X-CSRF-Token": document.querySelector('meta[name="csrf-token"]').content
+        },
+        body: `recipe_id=${recipeId}`
+      })
+
+      if (response.ok) {
+        const html = await response.text()
+        Turbo.renderStreamMessage(html)
+      }
+    } catch (error) {
+      console.error("Select recipe error:", error)
+    }
   }
 }
