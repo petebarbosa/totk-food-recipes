@@ -1,0 +1,76 @@
+Name,Insect or material,Effect,Effect potency,Effect level,Effect time added,Effect time added +0:30,In game effect,Notes
+Big Hearty Radish,Material,Extra Hearts,20,20,-,-,+5 Extra Hearts,Maxes at level 108 (27 Extra Hearts)Rounds down to the nearest full Extra Heart
+Big Hearty Truffle,16,16,+4 Extra Hearts,,,,,
+Hearty Salmon,,,,,,,,
+Hearty Radish,12,12,+3 Extra Hearts,,,,,
+Hearty Bass,8,8,+2 Extra Hearts,,,,,
+Hearty Truffle,4,4,+1 Extra Heart,,,,,
+Hearty Lizard,Insect,16,16,+4 Extra Hearts,,,,
+Staminoka Bass,Material,Stamina Recovery,4,5.6,-,-,+5.6 Stamina Segments recovery (1.12 Wheel),"Maxes at level 15 (15 Stamina Segments, 3 Stamina Wheels)Rounds down to the nearest Stamina Segment"
+Courser Bee Honey,2,2.8,+2.8 Stamina Segments recovery (0.56 Wheel),,,,,
+Bright-Eyed Crab,,,,,,,,
+Stamella Shroom,1,1.4,+1.4 Stamina Segment recovery (0.28 Wheel),,,,,
+Stambulb,,,,,,,,
+Energetic Rhino Beetle,Insect,6,8.4,+8.4 Stamina Segments recovery (1.68 Wheel),,,,
+Restless Cricket,1,1.4,+1.4 Stamina Segment recovery (0.28 Wheel),,,,,
+Endura Carrot,Material,Extra Stamina,4,2,-,-,+2 Extra Stamina Segments (0.4 Wheel),"Maxes at level 20 (20 Extra Stamina Segments, 4 Extra Stamina Wheels)Rounds down to the nearest Extra Stamina Segment"
+Endura Shroom,1,0.5,+0.5 Extra Stamina Segment (0.1 Wheel),,,,,
+Tireless Frog,Insect,2,1,+1 Extra Stamina Segment (0.2 Wheel),,,,
+Chillfin Trout,Material,Heat Resistance,3,1.05,2:00,2:30,+1.05 level of Heat Resistance,Maxes at level 2Rounds down to the nearest levelEach material adds 2:00 to the effect (not counting the universal 0:30 per material)
+Chillshroom,2,0.7,+0.7 level of Heat Resistance,,,,,
+Hydromelon,1,0.35,+0.35 level of Heat Resisance,,,,,
+Cool Safflina,,,,,,,,
+Cold Darner,Insect,2,0.7,+0.7 level of Heat Resistance,,,,
+Winterwing Butterfly,1,0.35,+0.35 level of Heat Resisance,,,,,
+Sizzlefin Trout,Material,Cold Resistance,3,1.05,2:00,2:30,+1.05 level of Cold Resistance,
+Sunshroom,2,0.7,+0.7 level of Cold Resistance,,,,,
+Spicy Pepper,1,0.35,+0.35 level of Cold Resisance,,,,,
+Warm Safflina,,,,,,,,
+Warm Darner,Insect,2,0.7,+0.7 level of Cold Resistance,,,,
+Summerwing Butterfly,1,0.35,0.35 level of Cold Resisance,,,,,
+Voltfin Trout,Material,Shock Resistance,3,1.5,2:00,2:30,+1.5 level of Shock Resistance,Maxes at level 3Rounds down to the nearest levelEach material adds 2:00 to the effect (not counting the universal 0:30 per material)
+Zapshroom,2,1,+1 level of Shock Resistance,,,,,
+Voltfruit,1,0.5,+0.5 level of Shock Resistance,,,,,
+Electric Safflina,,,,,,,,
+Electric Darner,Insect,2,1,+1 level of Shock Resistance,,,,
+Thunderwing Butterfly,1,0.5,+0.5 level of Shock Resistance,,,,,
+Fleet-Lotus Seed,Material,Speed Up,2,0.9,0:30,1:00,+0.9 level of Speed Up,Maxes at level 3Rounds down to the nearest levelEach material adds 0:30 to the effect (not counting the universal 0:30 per material)
+Swift Violet,,,,,,,,
+Rushroom,1,0.45,+0.45 level of Speed Up,,,,,
+Swift Carrot,,,,,,,,
+Hot-Footed Frog,Insect,2,0.9,+0.9 level of Speed Up,,,,
+Hightail Lizard,1,0.45,+0.45 level of Speed Up,,,,,
+Mighty Porgy,Material,Attack Up,3,1.35,0:20,0:50,+1.35 level of Attack Up,Maxes at level 3Rounds down to the nearest levelEach material adds 0:20 to the effect (not counting the universal 0:30 per material)
+Mighty Bananas,2,0.9,+0.9 level of Attack Up,,,,,
+Razorshroom,,,,,,,,
+Mighty Carp,,,,,,,,
+Razorclaw Crab,,,,,,,,
+Mighty Thistle,1,0.45,+0.45 level of Attack Up,,,,,
+Bladed Rhino Beetle,Insect,1,0.45,+0.45 level of Attack Up,,,,
+Armored Porgy,Material,Defense Up,3,1.35,0:20,0:50,+1.35 level of Defense Up,Maxes at level 3Rounds down to the nearest levelEach material adds 0:20 to the effect (not counting the universal 0:30 per material)
+Ironshroom,2,0.9,+0.9 level of Defense Up,,,,,
+Fortified Pumpkin,,,,,,,,
+Armored Carp,,,,,,,,
+Ironshell Crab,,,,,,,,
+Armoranth,1,0.45,+0.45 level of Defense Up,,,,,
+Rugged Rhino Beetle,Insect,1,0.45,+0.45 level of Defense Up,,,,
+Silent Princess,Material,Stealth Up,3,1.05,1:30,2:00,+1.05 level of Stealth Up,Maxes at level 3Rounds down to the nearest levelEach material adds 1:30 to the effect (not counting the universal 0:30 per material)
+Silent Shroom,2,0.7,+0.7 level of Stealth Up,,,,,
+Stealthfin Trout,,,,,,,,
+Blue Nightshade,1,0.35,+0.35 level of Stealth Up,,,,,
+Sneaky River Snail,,,,,,,,
+Sunset Firefly,Insect,1,0.35,+0.35 level of Stealth Up,,,,
+Smotherwing Butterfly,Insect,Flame Guard,2,0.6,2:00,2:30,+0.6 level of Flame Guard,Maxes at level 2Rounds down to the nearest levelEach material adds 2:00 to the effect (not counting the universal 0:30 per material)
+Fireproof Lizard,1,0.3,+0.3 level of Flame Guard,,,,,
+Sundelion,Material,Gloom Recovery,12,12,-,-,+3 Ungloomed Hearts,Maxes at level 108 (27 Ungloomed Hearts)Rounds down to the nearest full Ungloomed Heart
+Sun Pumpkin,4,4,+1 Ungloomed Heart,,,,,
+Glowing Cave Fish,Material,Glow,2,0.9,1:30,2:00,+0.9 level of Glow,Maxes at level 3Rounds down to the nearest levelEach material adds 1:30 to the effect (not counting the universal 0:30 per material)
+Brightcap,1,0.45,+0.45 level of Glow,,,,,
+Deep Firefly,Insect,2,0.9,+0.9 level of Glow,,,,
+Sticky Frog,Insect,Slip Resistance,2,0.9,1:30,2:00,+0.9 level of Slip Resistance,
+Sticky Lizard,1,0.45,+0.45 level of Slip Resistance,,,,,
+Splash Fruit,Material,Swim Speed Up,1,0.35,1:30,2:00,+0.35 level of Swim Speed Up,
+Fire Fruit,Material,Hot Weather Attack,1,0.35,0:30,1:00,+0.35 level of Hot Weather Attack,Maxes at level 3Rounds down to the nearest levelEach material adds 0:30 to the effect (not counting the universal 0:30 per material)
+Ice Fruit,Material,Cold Weather Attack,1,0.35,0:30,1:00,+0.35 level of Cold Weather Attack,
+Shock Fruit,Material,Stormy Weather Attack,1,0.35,0:30,1:00,+0.35 level of Stormy Weather Attack,
+Dark Clump,Material,Gloom Resistance,1,1,2:00,2:30,+1 level of Gloom Resistance,Maxes at level 3Rounds down to the nearest levelEach material adds 1:30 to the effect (not counting the universal 0:30 per material)

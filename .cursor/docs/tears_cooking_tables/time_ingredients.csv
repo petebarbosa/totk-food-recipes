@@ -1,0 +1,130 @@
+"",A,"",B,C,D
+1,Name,"",Type,Spice Effect time increase,Spice Effect time increase +0:30
+2,Dinraal's Horn,"",Dragon part,30:00,30:00
+3,Naydra's Horn,"",30:00,30:00
+4,Farosh's Horn,"",30:00,30:00
+5,Light Dragon's Horn,"",30:00,30:00
+6,Shard of Dinraal's Fang,"",10:00,10:30
+7,Shard of Naydra's Fang,"",10:00,10:30
+8,Shard of Farosh's Fang,"",10:00,10:30
+9,Shard of Light Dragon's Fang,"",10:00,10:30
+10,Dinraal's Claw,"",03:00,03:30
+11,Naydra's Claw,"",03:00,03:30
+12,Farosh's Claw,"",03:00,03:30
+13,Light Dragon's Talon,"",03:00,03:30
+14,Shard of Dinraal's Spike,"",01:20,01:50
+15,Shard of Naydra's Spike,"",01:20,01:50
+16,Shard of Farosh's Spike,"",01:20,01:50
+17,Shard of Light Dragon's Spike,"",01:20,01:50
+18,Dinraal's Scale,"",01:00,01:30
+19,Naydra's Scale,"",01:00,01:30
+20,Farosh's Scale,"",01:00,01:30
+21,Light Dragon's Scale,"",01:00,01:30
+22,Bird Egg,"",Material,01:00,01:30
+23,Goron Spice,"",01:00,01:30
+24,Star Fragment,"",01:00,01:30
+25,Hateno Cheese,"",00:50,01:20
+26,Fresh Milk,"",00:50,01:20
+27,Cane Sugar,"",00:50,01:20
+28,Goat Butter,"",00:50,01:20
+29,Oil Jar,"",00:50,01:20
+30,Hylian Rice,"",00:30,01:00
+31,Tabantha Wheat,"",00:30,01:00
+32,Rock Salt,"",00:30,01:00
+33,Golden Apple,"",00:20,00:50
+34,Acorn,"",00:20,00:50
+35,Chickaloo Tree Nut,"",00:10,00:40
+36,Bokoblin Guts,"",Enemy part,02:40,03:10
+37,Moblin Guts,"",02:40,03:10
+38,Horriblin Guts,"",02:40,03:10
+39,Boss Bokoblin Guts,"",02:40,03:10
+40,Lynel Guts,"",02:40,03:10
+41,Gleeok Guts,"",02:40,03:10
+42,Frox Guts,"",02:40,03:10
+43,Molduga Guts,"",02:40,03:10
+44,Hinox Guts,"",02:40,03:10
+45,Lizalfos Tail,"",02:40,03:10
+46,Blue Lizalfos Tail,"",02:40,03:10
+47,Black Lizalfos Tail,"",02:40,03:10
+48,Silver Lizalfos Tail,"",02:40,03:10
+49,Fire-Breath Lizalfos Tail,"",02:40,03:10
+50,Ice-Breath Lizalfos Tail,"",02:40,03:10
+51,Electric Lizalfos Tail,"",02:40,03:10
+52,Gibdo Guts,"",01:20,01:50
+53,Red Chuchu Jelly,"",01:20,01:50
+54,White Chuchu Jelly,"",01:20,01:50
+55,Yellow Chuchu Jelly,"",01:20,01:50
+56,Keese Eyeball,"",01:20,01:50
+57,Fire Keese Eyeball,"",01:20,01:50
+58,Ice Keese Eyeball,"",01:20,01:50
+59,Electric Keese Eyeball,"",01:20,01:50
+60,Octorok Eyeball,"",01:20,01:50
+61,Aerocuda Eyeball,"",01:20,01:50
+62,Molduga Fin,"",01:20,01:50
+63,Hinox Toenail,"",01:20,01:50
+64,Like Like Stone,"",01:20,01:50
+65,Fire Like Stone,"",01:20,01:50
+66,Ice Like Stone,"",01:20,01:50
+67,Shock Like Stone,"",01:20,01:50
+68,Lynel Hoof,"",01:20,01:50
+69,Molduga Jaw,"",01:20,01:50
+70,Octorok Tentacle,"",01:20,01:50
+71,Bokoblin Fang,"",01:20,01:50
+72,Moblin Fang,"",01:20,01:50
+73,Boss Bokoblin Fang,"",01:20,01:50
+74,Hinox Tooth,"",01:20,01:50
+75,Horriblin Claw,"",01:20,01:50
+76,Lizalfos Talon,"",01:20,01:50
+77,Frox Fingernail,"",01:20,01:50
+78,Chuchu Jelly,"",00:40,01:10
+79,Octo Balloon,"",00:40,01:10
+80,Keese Wing,"",00:40,01:10
+81,Fire Keese Wing,"",00:40,01:10
+82,Ice Keese Wing,"",00:40,01:10
+83,Electric Keese Wing,"",00:40,01:10
+84,Aerocuda Wing,"",00:40,01:10
+85,Gibdo Wing,"",00:40,01:10
+86,Gleeok Wing,"",00:40,01:10
+87,Bokoblin Horn,"",00:40,01:10
+88,Blue Bokoblin Horn,"",00:40,01:10
+89,Black Bokoblin Horn,"",00:40,01:10
+90,Silver Bokoblin Horn,"",00:40,01:10
+91,Boss Bokoblin Horn,"",00:40,01:10
+92,Blue Boss Bokoblin Horn,"",00:40,01:10
+93,Black Boss Bokoblin Horn,"",00:40,01:10
+94,Silver Boss Bokoblin Horn,"",00:40,01:10
+95,Lizalfos Horn,"",00:40,01:10
+96,Blue Lizalfos Horn,"",00:40,01:10
+97,Black Lizalfos Horn,"",00:40,01:10
+98,Silver Lizalfos Horn,"",00:40,01:10
+99,Fire-Breath Lizalfos Horn,"",00:40,01:10
+100,Ice-Breath Lizalfos Horn,"",00:40,01:10
+101,Electric Lizalfos Horn,"",00:40,01:10
+102,Lynel Saber Horn,"",00:40,01:10
+103,Blue-Maned Lynel Saber Horn,"",00:40,01:10
+104,White-Maned Lynel Saber Horn,"",00:40,01:10
+105,Silver Lynel Saber Horn,"",00:40,01:10
+106,Gleeok Flame Horn,"",00:40,01:10
+107,Gleeok Frost Horn,"",00:40,01:10
+108,Gleeok Thunder Horn,"",00:40,01:10
+109,Moblin Horn,"",00:40,01:10
+110,Blue Moblin Horn,"",00:40,01:10
+111,Black Moblin Horn,"",00:40,01:10
+112,Silver Moblin Horn,"",00:40,01:10
+113,Horriblin Horn,"",00:40,01:10
+114,Blue Horriblin Horn,"",00:40,01:10
+115,Black Horriblin Horn,"",00:40,01:10
+116,Silver Horriblin Horn,"",00:40,01:10
+117,Lynel Mace Horn,"",00:40,01:10
+118,Blue-Maned Lynel Mace Horn,"",00:40,01:10
+119,White-Maned Lynel Mace Horn,"",00:40,01:10
+120,Silver Lynel Mace Horn,"",00:40,01:10
+121,Hinox Horn,"",00:40,01:10
+122,Blue Hinox Horn,"",00:40,01:10
+123,Black Hinox Horn,"",00:40,01:10
+124,Stalnox Horn,"",00:40,01:10
+125,Frox Fang,"",00:40,01:10
+126,Obsidian Frox Fang,"",00:40,01:10
+127,Blue-White Frox Fang,"",00:40,01:10
+128,Gibdo Bone,"",00:40,01:10
+129,Any other,"",-,-,00:30

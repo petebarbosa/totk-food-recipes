@@ -1,0 +1,15 @@
+"",A,B,C,D
+1,Step number,Step name,Step description,Notes
+2,1,Getting the recipe,"The game tries to find a recipe that matches the ingredients list provided. If it fails to do so, the result will be the failed meal actor (Dubious Food).","There are two lists the game can search through. More details in the Cooking document. If Dubious Food, skip to the end."
+3,2,Getting the effect and its stats,The game finds the effect of the meal (if it exists) as well as its duration and level.,"Dubious Food and Rock-Hard Food have no effect, and zero duration and level."
+4,2.1,Effect,"If the amount of different effects provided by the materials is exactly one, the meal takes that effect. Else, the meal has no effect (unless it's an elixir, and then it becomes Dubious Food).",-
+5,2.2,Effect level,"The game adds the potency of each ingredient possessing the effect of the meal, then multiplies the sum of potency with the Rate of the effect and clamps it to the Max level of the effect to get the final level.",-
+6,2.3,Effect duration,Each material of the list adds 30 seconds. Each material with the effect of the meal adds the effect base time. Each CookEnemy material (not necessarily unique) addds its Spice time.,-
+7,3,Health recovery,Each material of the list adds its health recovery to the meal. The sum is then multiplied by 2. 4 health = 1 Heart.,"Dubious Food regenerates 1 Heart, Rock-Hard Food regenerates ¼ Heart, both have 2 selling price and no effect, skip to the end in that case."
+8,4,Monster Extract,Applies the Monster Extract algorithm (see Monster Extract) if there is a Monster Extract in the materials list.,"In such a case, skip to step 7."
+9,5,Critical rate,"The critical rate is 5 times the amount of unique materials in the meal, added to the maximum Added critical chance out of all the materials in the meal.",-
+10,6,Critical hit,Applies the Critical algorithm (see Criticals) if a critical hit is rolled. Monster Extracts inhibit Criticals.,-
+11,7,Non CookEnemy Spice,Each unique non-CookEnemy material adds its Spice time to the duration and its Spice health recovery to the health recovery.,-
+12,8,Meal bonuses,Adds the Bonus health of the meal to the health recovery.,-
+13,9,Adjusting values,"Clamp duration to max (30:00), clamp health recovery to max (160), if >= 120 also set to 160, if no effect and no health recovery, set health recovery to ¼ Heart, clamp level to max and min level of the effect, if Extra Heart or Gloom Recovery round level to nearest 4, level is rounded down.","Dubious Food regenerates 1 Heart, Rock-Hard Food regenerates ¼ Heart, both have 2 selling price and no effect, skip to the end in that case."
+14,10,Selling price,"Each material adds its selling price to the meal's selling price (or 1 if they're a Cook low price), it then is multiplied with the sell price rate. Fairy Tonic has its selling price set to 2.","Sell price rate is 1.2 for one material, 1.3 for two, 1.4 for three, 1.6 for four, 1.8 for five."

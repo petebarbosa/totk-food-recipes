@@ -1,0 +1,252 @@
+Name,Category,Cook Tag,Health recovered,Effect,Effect potency,Effect level,Effect time added,Added critical chance,Spice Health recovery increase,Spice Effect time increase,Sell price,Cook Low Price
+Golden Apple,Fruit,Fruit,6,-,-,-,-,100%,-,0:20,8,-
+Palm Fruit,Fruit,Fruit,4,-,-,-,-,-,-,-,4,-
+Hylian Tomato,Fruit,Fruit,4,-,-,-,-,-,-,-,4,-
+Apple,Fruit,Fruit,2,-,-,-,-,-,-,-,3,-
+Wildberry,Fruit,Fruit,2,-,-,-,-,-,-,-,3,-
+Voltfruit,Fruit,Fruit,2,Shock Resistance,1,0.5,2:00,-,-,-,4,-
+Fleet-Lotus Seed,Fruit,Fruit,2,Speed Up,2,0.9,0:30,-,-,-,5,-
+Hydromelon,Fruit,Fruit,2,Heat Resistance,1,0.35,2:00,-,-,-,4,-
+Mighty Bananas,Fruit,Fruit,2,Attack Up,2,0.9,0:20,-,-,-,5,-
+Spicy Pepper,Fruit,Fruit,2,Cold Resistance,1,0.35,2:00,-,-,-,3,-
+Fire Fruit,Fruit,Fruit,1,Hot Weather Attack,1,0.35,0:30,-,-,-,3,-
+Ice Fruit,Fruit,Fruit,1,Cold Weather Attack,1,0.35,0:30,-,-,-,3,-
+Shock Fruit,Fruit,Fruit,1,Stormy Weather Attack,1,0.35,0:30,-,-,-,3,-
+Splash Fruit,Fruit,Fruit,1,Swim Speed Up,1,0.35,1:30,-,-,-,2,-
+Dazzlefruit,Fruit,Fruit,1,-,-,-,-,-,-,-,5,-
+Bomb Flower,Fruit,Inedible vegetable,-,-,-,-,-,-,-,-,10,-
+Puffshroom,Fruit,Inedible vegetable,-,-,-,-,-,-,-,-,10,-
+Muddle Bud,Fruit,Inedible vegetable,-,-,-,-,-,-,-,-,10,-
+Big Hearty Truffle,Mushroom,Mushroom,12,Extra Hearts,16,16,-,-,-,-,25,-
+Hearty Truffle,Mushroom,Mushroom,8,Extra Hearts,4,4,-,-,-,-,20,-
+Endura Shroom,Mushroom,Mushroom,4,Extra Stamina,1,0.5,-,-,-,-,15,-
+Rushroom,Mushroom,Mushroom,2,Speed Up,1,0.45,0:30,-,-,-,3,-
+Brightcap,Mushroom,Mushroom,2,Glow,1,0.45,1:30,-,-,-,4,-
+Stamella Shroom,Mushroom,Mushroom,2,Stamina Recovery,1,1.4,-,-,-,-,5,-
+Chillshroom,Mushroom,Mushroom,2,Heat Resistance,2,0.7,2:00,-,-,-,4,-
+Sunshroom,Mushroom,Mushroom,2,Cold Resistance,2,0.7,2:00,-,-,-,4,-
+Hylian Shroom,Mushroom,Mushroom,2,-,-,-,-,-,-,-,3,-
+Zapshroom,Mushroom,Mushroom,2,Shock Resistance,2,1,2:00,-,-,-,4,-
+Silent Shroom,Mushroom,Mushroom,2,Stealth Up,2,0.7,1:30,-,-,-,3,-
+Razorshroom,Mushroom,Mushroom,2,Attack Up,2,0.9,0:20,-,-,-,5,-
+Ironshroom,Mushroom,Mushroom,2,Defense Up,2,0.9,0:20,-,-,-,5,-
+Skyshroom,Mushroom,Mushroom,1,-,-,-,-,-,-,-,3,-
+Big Hearty Radish,Plant,Plant,16,Extra Hearts,20,20,-,-,-,-,25,-
+Hearty Radish,Plant,Plant,10,Extra Hearts,12,12,-,-,-,-,20,-
+Endura Carrot,Plant,Plant,8,Extra Stamina,4,2,-,-,-,-,20,-
+Hyrule Herb,Plant,Plant,4,-,-,-,-,-,-,-,3,-
+Silent Princess,Plant,Plant,4*,Stealth Up,3,1.05,1:30,-,-,-,10,-
+Fortified Pumpkin,Plant,Plant,2,Defense Up,2,0.9,0:20,-,-,-,5,-
+Sun Pumpkin,Plant,Plant,2,Gloom Recovery,4,4,-,-,-,-,5,-
+Swift Carrot,Plant,Plant,2,Speed Up,1,0.45,0:30,-,-,-,4,-
+Stambulb,Plant,Plant,2,Stamina Recovery,1,1.4,-,-,-,-,4,-
+Korok Frond,Plant,Plant,1,-,-,-,-,-,-,-,3,-
+Cool Safflina,Plant,Plant,-,Heat Resistance,1,0.35,2:00,-,-,-,3,-
+Warm Safflina,Plant,Plant,-,Cold Resistance,1,0.35,2:00,-,-,-,3,-
+Mighty Thistle,Plant,Plant,-,Attack Up,1,0.45,0:20,-,-,-,5,-
+Armoranth,Plant,Plant,-,Defense Up,1,0.45,0:20,-,-,-,5,-
+Blue Nightshade,Plant,Plant,-,Stealth Up,1,0.35,1:30,-,-,-,4,-
+Electric Safflina,Plant,Plant,-,Shock Resistance,1,0.5,2:00,-,-,-,3,-
+Swift Violet,Plant,Plant,-,Speed Up,2,0.9,0:30,-,-,-,10,-
+Sundelion,Plant,Plant,-,Gloom Recovery,12,12,-,-,-,-,8,-
+Raw Gourmet Meat,Meat,Meat,12,-,-,-,-,-,-,-,35,-
+Raw Whole Bird,Meat,Meat,12,-,-,-,-,-,-,-,35,-
+Raw Prime Meat,Meat,Meat,6,-,-,-,-,-,-,-,15,-
+Raw Bird Thigh,Meat,Meat,6,-,-,-,-,-,-,-,15,-
+Raw Meat,Meat,Meat,4,-,-,-,-,-,-,-,8,-
+Raw Bird Drumstick,Meat,Meat,4,-,-,-,-,-,-,-,8,-
+Courser Bee Honey,Spice,Spice,8,Stamina Recovery,2,2.8,-,-,-,-,10,-
+Hylian Rice,Spice,Spice,4,-,-,-,-,-,-,0:30,3,-
+Bird Egg,Spice,Spice,4,-,-,-,-,10%,-,1:00,3,-
+Tabantha Wheat,Spice,Spice,4,-,-,-,-,-,-,0:30,3,-
+Hateno Cheese,Spice,Spice,4,-,-,-,-,10%,-,0:50,5,-
+Fresh Milk,Spice,Spice,2,-,-,-,-,-,-,0:50,3,-
+Acorn,Spice,Spice,1,-,-,-,-,-,2,0:20,2,-
+Chickaloo Tree Nut,Spice,Spice,1,-,-,-,-,-,2,0:10,3,-
+Cane Sugar,Spice,Spice,-,-,-,-,-,30%,-,0:50,3,-
+Goron Spice,Spice,Spice,-,-,-,-,-,10%,-,1:00,4,-
+Goat Butter,Spice,Spice,-,-,-,-,-,10%,-,0:50,3,-
+Monster Extract*,Spice,Spice,-,-,-,-,-,-,-,-,12,-
+Oil Jar,Spice,Spice,-,-,-,-,-,10%,-,0:50,3,-
+Dark Clump,Spice,Spice,-,Gloom Resistance,1,1,2:00,-,-,-,5,-
+Rock Salt,Spice,Spice,-,-,-,-,-,-,-,0:30,2,-
+Star Fragment,Spice,Spice,-,-,-,-,-,100%,-,1:00,200,Yes
+Hearty Salmon,Fish,Fish,16,Extra Hearts,16,16,-,-,-,-,20,-
+Hearty Bass,Fish,Fish,8,Extra Hearts,8,8,-,-,-,-,18,-
+Hyrule Bass,Fish,Fish,4,-,-,-,-,-,-,-,6,-
+Staminoka Bass,Fish,Fish,4,Stamina Recovery,4,5.6,-,-,-,-,18,-
+Chillfin Trout,Fish,Fish,4,Heat Resistance,3,1.05,2:00,-,-,-,6,-
+Sizzlefin Trout,Fish,Fish,4,Cold Resistance,3,1.05,2:00,-,-,-,6,-
+Voltfin Trout,Fish,Fish,4,Shock Resistance,3,1.5,2:00,-,-,-,6,-
+Stealthfin Trout,Fish,Fish,4,Stealth Up,2,0.7,1:30,-,-,-,10,-
+Mighty Carp,Fish,Fish,4,Attack Up,2,0.9,0:20,-,-,-,10,-
+Armored Carp,Fish,Fish,4,Defense Up,2,0.9,0:20,-,-,-,10,-
+Sanke Carp,Fish,Fish,4,-,-,-,-,-,-,-,20,-
+Ancient Arowana,Fish,Fish,4,-,-,-,-,-,-,-,6,-
+Glowing Cave Fish,Fish,Fish,4,Glow,2,0.9,1:30,-,-,-,6,-
+Mighty Porgy,Fish,Fish,4,Attack Up,3,1.35,0:20,-,-,-,10,-
+Armored Porgy,Fish,Fish,4,Defense Up,3,1.35,0:20,-,-,-,10,-
+Sneaky River Snail,Fish,Fish,4,Stealth Up,1,0.35,1:30,-,-,-,6,-
+Razorclaw Crab,Fish,Fish,4,Attack Up,2,0.9,0:20,-,-,-,8,-
+Ironshell Crab,Fish,Fish,4,Defense Up,2,0.9,0:20,-,-,-,8,-
+Bright-Eyed Crab,Fish,Fish,4,Stamina Recovery,2,2.8,-,-,-,-,8,-
+Fairy,Fairy,Other,20,-,-,-,-,-,-,-,2,-
+Winterwing Butterfly,Insect,Insect,-,Heat Resistance,1,0.35,2:00,-,-,-,2,-
+Summerwing Butterfly,Insect,Insect,-,Cold Resistance,1,0.35,2:00,-,-,-,2,-
+Thunderwing Butterfly,Insect,Insect,-,Shock Resistance,1,0.5,2:00,-,-,-,2,-
+Smotherwing Butterfly,Insect,Insect,-,Flame Guard,2,0.6,2:00,-,-,-,2,-
+Cold Darner,Insect,Insect,-,Heat Resistance,2,0.7,2:00,-,-,-,2,-
+Warm Darner,Insect,Insect,-,Cold Resistance,2,0.7,2:00,-,-,-,2,-
+Electric Darner,Insect,Insect,-,Shock Resistance,2,1,2:00,-,-,-,2,-
+Energetic Rhino Beetle,Insect,Insect,-,Stamina Recovery,6,8.4,-,-,-,-,30,-
+Bladed Rhino Beetle,Insect,Insect,-,Attack Up,1,0.45,0:20,-,-,-,4,-
+Rugged Rhino Beetle,Insect,Insect,-,Defense Up,1,0.45,0:20,-,-,-,4,-
+Sunset Firefly,Insect,Insect,-,Stealth Up,1,0.35,1:30,-,-,-,2,-
+Deep Firefly,Insect,Insect,-,Glow,2,0.9,1:30,-,-,-,2,-
+Restless Cricket,Insect,Insect,-,Stamina Recovery,1,1.4,-,-,-,-,2,-
+Tireless Frog,Frog,Insect,8*,Extra Stamina,2,1,-,-,-,-,20,-
+Hot-Footed Frog,Frog,Insect,-,Speed Up,2,0.9,0:30,-,-,-,2,-
+Sticky Frog,Frog,Insect,-,Slip Resistance,2,0.9,1:30,-,-,-,10,-
+Hearty Lizard,Lizard,Insect,16*,Extra Hearts,16,16,-,-,-,-,20,-
+Hightail Lizard,Lizard,Insect,-,Speed Up,1,0.45,0:30,-,-,-,2,-
+Fireproof Lizard,Lizard,Insect,-,Flame Guard,1,0.3,2:00,-,-,-,5,-
+Sticky Lizard,Lizard,Insect,-,Slip Resistance,1,0.45,1:30,-,-,-,8,-
+Diamond,Ore,Ore,-,-,-,-,-,-,-,-,500,-
+Ruby,Ore,Ore,-,-,-,-,-,-,-,-,110,-
+Sapphire,Ore,Ore,-,-,-,-,-,-,-,-,150,-
+Topaz,Ore,Ore,-,-,-,-,-,-,-,-,80,-
+Opal,Ore,Ore,-,-,-,-,-,-,-,-,30,-
+Amber,Ore,Ore,-,-,-,-,-,-,-,-,10,-
+Luminous Stone,Ore,Ore,-,-,-,-,-,-,-,-,20,-
+Flint,Ore,Ore,-,-,-,-,-,-,-,-,5,-
+Bokoblin Guts,Enemy guts,Enemy,-,-,-,-,-,30%,-,2:40,20,-
+Moblin Guts,Enemy guts,Enemy,-,-,-,-,-,30%,-,2:40,25,-
+Horriblin Guts,Enemy guts,Enemy,-,-,-,-,-,30%,-,2:40,25,-
+Gibdo Guts,Enemy guts,Enemy,-,-,-,-,-,100%,-,1:20,2,-
+Boss Bokoblin Guts,Enemy guts,Enemy,-,-,-,-,-,30%,-,2:40,60,-
+Lynel Guts,Enemy guts,Enemy,-,-,-,-,-,30%,-,2:40,200,-
+Gleeok Guts,Enemy guts,Enemy,-,-,-,-,-,30%,-,2:40,200,-
+Frox Guts,Enemy guts,Enemy,-,-,-,-,-,30%,-,2:40,40,-
+Molduga Guts,Enemy guts,Enemy,-,-,-,-,-,30%,-,2:40,110,-
+Hinox Guts,Enemy guts,Enemy,-,-,-,-,-,30%,-,2:40,80,-
+Red Chuchu Jelly,Enemy,Enemy,-,-,-,-,-,10%,-,1:20,4,-
+White Chuchu Jelly,Enemy,Enemy,-,-,-,-,-,10%,-,1:20,4,-
+Yellow Chuchu Jelly,Enemy,Enemy,-,-,-,-,-,10%,-,1:20,4,-
+Chuchu Jelly,Enemy,Enemy,-,-,-,-,-,-,-,0:40,2,-
+Octo Balloon,Enemy,Enemy,-,-,-,-,-,-,-,0:40,5,-
+Keese Eyeball,Enemy,Enemy,-,-,-,-,-,10%,-,1:20,2,-
+Fire Keese Eyeball,Enemy,Enemy,-,-,-,-,-,10%,-,1:20,6,-
+Ice Keese Eyeball,Enemy,Enemy,-,-,-,-,-,10%,-,1:20,6,-
+Electric Keese Eyeball,Enemy,Enemy,-,-,-,-,-,10%,-,1:20,6,-
+Octorok Eyeball,Enemy,Enemy,-,-,-,-,-,10%,-,1:20,4,-
+Aerocuda Eyeball,Enemy,Enemy,-,-,-,-,-,10%,-,1:20,4,-
+Keese Wing,Enemy,Enemy,-,-,-,-,-,-,-,0:40,3,-
+Fire Keese Wing,Enemy,Enemy,-,-,-,-,-,-,-,0:40,8,-
+Ice Keese Wing,Enemy,Enemy,-,-,-,-,-,-,-,0:40,8,-
+Electric Keese Wing,Enemy,Enemy,-,-,-,-,-,-,-,0:40,8,-
+Aerocuda Wing,Enemy,Enemy,-,-,-,-,-,-,-,0:40,6,-
+Gibdo Wing,Enemy,Enemy,-,-,-,-,-,-,-,0:40,6,-
+Gleeok Wing,Enemy,Enemy,-,-,-,-,-,-,-,0:40,38,-
+Molduga Fin,Enemy,Enemy,-,-,-,-,-,10%,-,1:20,30,-
+Bokoblin Horn,Enemy bladed part,Enemy,-,-,-,-,-,-,-,0:40,3,-
+Blue Bokoblin Horn,Enemy bladed part,Enemy,-,-,-,-,-,-,-,0:40,5,-
+Black Bokoblin Horn,Enemy bladed part,Enemy,-,-,-,-,-,-,-,0:40,9,-
+Silver Bokoblin Horn,Enemy bladed part,Enemy,-,-,-,-,-,-,-,0:40,25,-
+Boss Bokoblin Horn,Enemy bladed part,Enemy,-,-,-,-,-,-,-,0:40,14,-
+Blue Boss Bokoblin Horn,Enemy bladed part,Enemy,-,-,-,-,-,-,-,0:40,26,-
+Black Boss Bokoblin Horn,Enemy bladed part,Enemy,-,-,-,-,-,-,-,0:40,36,-
+Silver Boss Bokoblin Horn,Enemy bladed part,Enemy,-,-,-,-,-,-,-,0:40,44,-
+Lizalfos Horn,Enemy bladed part,Enemy,-,-,-,-,-,-,-,0:40,8,-
+Blue Lizalfos Horn,Enemy bladed part,Enemy,-,-,-,-,-,-,-,0:40,10,-
+Black Lizalfos Horn,Enemy bladed part,Enemy,-,-,-,-,-,-,-,0:40,15,-
+Silver Lizalfos Horn,Enemy bladed part,Enemy,-,-,-,-,-,-,-,0:40,30,-
+Fire-Breath Lizalfos Horn,Enemy bladed part,Enemy,-,-,-,-,-,-,-,0:40,15,-
+Ice-Breath Lizalfos Horn,Enemy bladed part,Enemy,-,-,-,-,-,-,-,0:40,15,-
+Electric Lizalfos Horn,Enemy bladed part,Enemy,-,-,-,-,-,-,-,0:40,15,-
+Lynel Saber Horn,Enemy bladed part,Enemy,-,-,-,-,-,-,-,0:40,40,-
+Blue-Maned Lynel Saber Horn,Enemy bladed part,Enemy,-,-,-,-,-,-,-,0:40,70,-
+White-Maned Lynel Saber Horn,Enemy bladed part,Enemy,-,-,-,-,-,-,-,0:40,90,-
+Silver Lynel Saber Horn,Enemy bladed part,Enemy,-,-,-,-,-,-,-,0:40,150,-
+Soldier Construct Horn,Enemy bladed part,Zonai object,-,-,-,-,-,-,-,-,2,-
+Soldier Construct II Horn,Enemy bladed part,Zonai object,-,-,-,-,-,-,-,-,4,-
+Soldier Construct III Horn,Enemy bladed part,Zonai object,-,-,-,-,-,-,-,-,10,-
+Soldier Construct IV Horn,Enemy bladed part,Zonai object,-,-,-,-,-,-,-,-,24,-
+Captain Construct I Horn,Enemy bladed part,Zonai object,-,-,-,-,-,-,-,-,3,-
+Captain Construct II Horn,Enemy bladed part,Zonai object,-,-,-,-,-,-,-,-,9,-
+Captain Construct III Horn,Enemy bladed part,Zonai object,-,-,-,-,-,-,-,-,12,-
+Captain Construct IV Horn,Enemy bladed part,Zonai object,-,-,-,-,-,-,-,-,30,-
+Hinox Toenail,Enemy bladed part,Enemy,-,-,-,-,-,10%,-,1:20,20,-
+Gleeok Flame Horn,Enemy bladed part,Zonai object,-,-,-,-,-,-,-,0:40,70,-
+Gleeok Frost Horn,Enemy bladed part,Zonai object,-,-,-,-,-,-,-,0:40,90,-
+Gleeok Thunder Horn,Enemy bladed part,Enemy,-,-,-,-,-,-,-,0:40,150,-
+Dinraal's Horn,Enemy bladed part,Spice,-,-,-,-,-,100%,15,30:00,300,Yes
+Naydra's Horn,Enemy bladed part,Spice,-,-,-,-,-,100%,15,30:00,300,Yes
+Farosh's Horn,Enemy bladed part,Spice,-,-,-,-,-,100%,15,30:00,300,Yes
+Light Dragon's Horn,Enemy bladed part,Spice,-,-,-,-,-,100%,15,30:00,300,Yes
+Like Like Stone,Enemy hammer part,Enemy,-,-,-,-,-,10%,-,1:20,15,-
+Fire Like Stone,Enemy hammer part,Enemy,-,-,-,-,-,10%,-,1:20,25,-
+Ice Like Stone,Enemy hammer part,Enemy,-,-,-,-,-,10%,-,1:20,25,-
+Shock Like Stone,Enemy hammer part,Enemy,-,-,-,-,-,10%,-,1:20,25,-
+Moblin Horn,Enemy hammer part,Enemy,-,-,-,-,-,-,-,0:40,5,-
+Blue Moblin Horn,Enemy hammer part,Enemy,-,-,-,-,-,-,-,0:40,9,-
+Black Moblin Horn,Enemy hammer part,Enemy,-,-,-,-,-,-,-,0:40,15,-
+Silver Moblin Horn,Enemy hammer part,Enemy,-,-,-,-,-,-,-,0:40,30,-
+Horriblin Horn,Enemy hammer part,Enemy,-,-,-,-,-,-,-,0:40,4,-
+Blue Horriblin Horn,Enemy hammer part,Enemy,-,-,-,-,-,-,-,0:40,9,-
+Black Horriblin Horn,Enemy hammer part,Enemy,-,-,-,-,-,-,-,0:40,15,-
+Silver Horriblin Horn,Enemy hammer part,Enemy,-,-,-,-,-,-,-,0:40,30,-
+Lynel Hoof,Enemy hammer part,Enemy,-,-,-,-,-,10%,-,1:20,50,-
+Lynel Mace Horn,Enemy hammer part,Enemy,-,-,-,-,-,-,-,0:40,40,-
+Blue-Maned Lynel Mace Horn,Enemy hammer part,Enemy,-,-,-,-,-,-,-,0:40,70,-
+White-Maned Lynel Mace Horn,Enemy hammer part,Enemy,-,-,-,-,-,-,-,0:40,90,-
+Silver Lynel Mace Horn,Enemy hammer part,Enemy,-,-,-,-,-,-,-,0:40,150,-
+Hinox Horn,Enemy hammer part,Enemy,-,-,-,-,-,-,-,0:40,15,-
+Blue Hinox Horn,Enemy hammer part,Enemy,-,-,-,-,-,-,-,0:40,35,-
+Black Hinox Horn,Enemy hammer part,Enemy,-,-,-,-,-,-,-,0:40,60,-
+Stalnox Horn,Enemy hammer part,Enemy,-,-,-,-,-,-,-,0:40,15,-
+Molduga Jaw,Enemy hammer part,Enemy,-,-,-,-,-,10%,-,1:20,30,-
+Frox Fang,Enemy hammer part,Enemy,-,-,-,-,-,-,-,0:40,40,-
+Obsidian Frox Fang,Enemy hammer part,Enemy,-,-,-,-,-,-,-,0:40,40,-
+Blue-White Frox Fang,Enemy hammer part,Enemy,-,-,-,-,-,-,-,0:40,40,-
+Shard of Dinraal's Spike,Enemy hammer part,Spice,-,-,-,-,-,10%,-,1:20,30,Yes
+Shard of Naydra's Spike,Enemy hammer part,Spice,-,-,-,-,-,10%,-,1:20,30,Yes
+Shard of Farosh's Spike,Enemy hammer part,Spice,-,-,-,-,-,10%,-,1:20,30,Yes
+Shard of Light Dragon's Spike,Enemy hammer part,Spice,-,-,-,-,-,10%,-,1:20,30,Yes
+Lizalfos Tail,Enemy whip part,Enemy,-,-,-,-,-,30%,-,2:40,18,-
+Blue Lizalfos Tail,Enemy whip part,Enemy,-,-,-,-,-,30%,-,2:40,20,-
+Black Lizalfos Tail,Enemy whip part,Enemy,-,-,-,-,-,30%,-,2:40,22,-
+Silver Lizalfos Tail,Enemy whip part,Enemy,-,-,-,-,-,30%,-,2:40,24,-
+Fire-Breath Lizalfos Tail,Enemy whip part,Enemy,-,-,-,-,-,30%,-,2:40,22,-
+Ice-Breath Lizalfos Tail,Enemy whip part,Enemy,-,-,-,-,-,30%,-,2:40,22,-
+Electric Lizalfos Tail,Enemy whip part,Enemy,-,-,-,-,-,30%,-,2:40,22,-
+Gibdo Bone,Enemy blunt part,Enemy,-,-,-,-,-,-,-,0:40,3,-
+Octorok Tentacle,Enemy blunt part,Enemy,-,-,-,-,-,10%,-,1:20,10,-
+Bokoblin Fang,Enemy blunt part,Enemy,-,-,-,-,-,10%,-,1:20,8,-
+Moblin Fang,Enemy blunt part,Enemy,-,-,-,-,-,10%,-,1:20,12,-
+Boss Bokoblin Fang,Enemy blunt part,Enemy,-,-,-,-,-,10%,-,1:20,15,-
+Hinox Tooth,Enemy blunt part,Enemy,-,-,-,-,-,10%,-,1:20,35,-
+Horriblin Claw,Enemy blunt part,Enemy,-,-,-,-,-,10%,-,1:20,12,-
+Lizalfos Talon,Enemy blunt part,Enemy,-,-,-,-,-,10%,-,1:20,15,-
+Frox Fingernail,Enemy blunt part,Enemy,-,-,-,-,-,10%,-,1:20,40,-
+Dinraal's Scale,Enemy blunt part,Spice,-,-,-,-,-,100%,5,1:00,150,Yes
+Naydra's Scale,Enemy blunt part,Spice,-,-,-,-,-,100%,5,1:00,150,Yes
+Farosh's Scale,Enemy blunt part,Spice,-,-,-,-,-,100%,5,1:00,150,Yes
+Light Dragon's Scale,Enemy blunt part,Spice,-,-,-,-,-,100%,5,1:00,150,Yes
+Dinraal's Claw,Enemy blunt part,Spice,-,-,-,-,-,100%,8,3:00,180,Yes
+Naydra's Claw,Enemy blunt part,Spice,-,-,-,-,-,100%,8,3:00,180,Yes
+Farosh's Claw,Enemy blunt part,Spice,-,-,-,-,-,100%,8,3:00,180,Yes
+Light Dragon's Talon,Enemy blunt part,Spice,-,-,-,-,-,100%,8,3:00,180,Yes
+Shard of Dinraal's Fang,Enemy blunt part,Spice,-,-,-,-,-,100%,10,10:00,250,Yes
+Shard of Naydra's Fang,Enemy blunt part,Spice,-,-,-,-,-,100%,10,10:00,250,Yes
+Shard of Farosh's Fang,Enemy blunt part,Spice,-,-,-,-,-,100%,10,10:00,250,Yes
+Shard of Light Dragon's Fang,Enemy blunt part,Spice,-,-,-,-,-,100%,10,10:00,250,Yes
+Ancient Blade,Ancient Blade,Zonai object,-,-,-,-,-,-,-,-,1,-
+King's Scale,Other,Ore,-,-,-,-,-,-,-,-,-,-
+Brightbloom Seed,Other,Fruit,-,-,-,-,-,-,-,-,2,-
+Giant Brightbloom Seed,Other,Fruit,-,-,-,-,-,-,-,-,4,-
+Hylian Pine Cone,Other,Ore,-,-,-,-,-,-,-,-,2,-
+Wood,Other,Ore,-,-,-,-,-,-,-,-,2,-
+Zonaite,Zonai object,Ore,-,-,-,-,-,-,-,-,3,-
+Large Zonaite,Zonai object,Ore,-,-,-,-,-,-,-,-,6,-
+Zonai Charge,Zonai object,Zonai object,-,-,-,-,-,-,-,-,6,-
+Large Zonai Charge,Zonai object,Zonai object,-,-,-,-,-,-,-,-,10,-

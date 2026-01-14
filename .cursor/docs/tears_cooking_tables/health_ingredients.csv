@@ -1,0 +1,93 @@
+"",A,"",B,C,D,E,F
+1,Name,"",Insect or material,Health recovered,Hearts added to the meal,Spice Health recovery,Spice Hearts added to the meal
+2,Fairy,"",Material,20,10,-,-
+3,Big Hearty Radish,"",Material,16,8,-,-
+4,Hearty Salmon,"",Material,16,8,-,-
+5,Hearty Lizard,"",Insect,16,8,-,-
+6,Big Hearty Truffle,"",Material,12,6,-,-
+7,Raw Gourmet Meat,"",Material,12,6,-,-
+8,Raw Whole Bird,"",Material,12,6,-,-
+9,Hearty Radish,"",Material,10,5,-,-
+10,Hearty Truffle,"",Material,8,4,-,-
+11,Endura Carrot,"",Material,8,4,-,-
+12,Courser Bee Honey,"",Material,8,4,-,-
+13,Hearty Bass,"",Material,8,4,-,-
+14,Tireless Frog,"",Insect,8,4,-,-
+15,Golden Apple,"",Material,6,3,-,-
+16,Raw Prime Meat,"",Material,6,3,-,-
+17,Raw Bird Thigh,"",Material,6,3,-,-
+18,Palm Fruit,"",Material,4,2,-,-
+19,Hylian Tomato,"",Material,4,2,-,-
+20,Endura Shroom,"",Material,4,2,-,-
+21,Hyrule Herb,"",Material,4,2,-,-
+22,Silent Princess,"",Material,4,2,-,-
+23,Raw Meat,"",Material,4,2,-,-
+24,Raw Bird Drumstick,"",Material,4,2,-,-
+25,Hylian Rice,"",Material,4,2,-,-
+26,Bird Egg,"",Material,4,2,-,-
+27,Tabantha Wheat,"",Material,4,2,-,-
+28,Hateno Cheese,"",Material,4,2,-,-
+29,Hyrule Bass,"",Material,4,2,-,-
+30,Staminoka Bass,"",Material,4,2,-,-
+31,Chillfin Trout,"",Material,4,2,-,-
+32,Sizzlefin Trout,"",Material,4,2,-,-
+33,Voltfin Trout,"",Material,4,2,-,-
+34,Stealthfin Trout,"",Material,4,2,-,-
+35,Mighty Carp,"",Material,4,2,-,-
+36,Armored Carp,"",Material,4,2,-,-
+37,Sanke Carp,"",Material,4,2,-,-
+38,Ancient Arowana,"",Material,4,2,-,-
+39,Glowing Cave Fish,"",Material,4,2,-,-
+40,Mighty Porgy,"",Material,4,2,-,-
+41,Armored Porgy,"",Material,4,2,-,-
+42,Sneaky River Snail,"",Material,4,2,-,-
+43,Razorclaw Crab,"",Material,4,2,-,-
+44,Ironshell Crab,"",Material,4,2,-,-
+45,Bright-Eyed Crab,"",Material,4,2,-,-
+46,Apple,"",Material,2,1,-,-
+47,Wildberry,"",Material,2,1,-,-
+48,Voltfruit,"",Material,2,1,-,-
+49,Fleet-Lotus Seed,"",Material,2,1,-,-
+50,Hydromelon,"",Material,2,1,-,-
+51,Mighty Bananas,"",Material,2,1,-,-
+52,Spicy Pepper,"",Material,2,1,-,-
+53,Rushroom,"",Material,2,1,-,-
+54,Brightcap,"",Material,2,1,-,-
+55,Stamella Shroom,"",Material,2,1,-,-
+56,Chillshroom,"",Material,2,1,-,-
+57,Sunshroom,"",Material,2,1,-,-
+58,Hylian Shroom,"",Material,2,1,-,-
+59,Zapshroom,"",Material,2,1,-,-
+60,Silent Shroom,"",Material,2,1,-,-
+61,Razorshroom,"",Material,2,1,-,-
+62,Ironshroom,"",Material,2,1,-,-
+63,Fortified Pumpkin,"",Material,2,1,-,-
+64,Sun Pumpkin,"",Material,2,1,-,-
+65,Swift Carrot,"",Material,2,1,-,-
+66,Stambulb,"",Material,2,1,-,-
+67,Fresh Milk,"",Material,2,1,-,-
+68,Fire Fruit,"",Material,1,0.5,-,-
+69,Ice Fruit,"",Material,1,0.5,-,-
+70,Shock Fruit,"",Material,1,0.5,-,-
+71,Splash Fruit,"",Material,1,0.5,-,-
+72,Dazzlefruit,"",Material,1,0.5,-,-
+73,Skyshroom,"",Material,1,0.5,-,-
+74,Korok Frond,"",Material,1,0.5,-,-
+75,Acorn,"",Material,1,0.5,2,0.5
+76,Chickaloo Tree Nut,"",Material,1,0.5,2,0.5
+77,Dinraal's Scale,"",Material,-,-,5,1.25
+78,Naydra's Scale,"",Material,-,-,5,1.25
+79,Farosh's Scale,"",Material,-,-,5,1.25
+80,Light Dragon's Scale,"",Material,-,-,5,1.25
+81,Dinraal's Claw,"",Material,-,-,8,2
+82,Naydra's Claw,"",Material,-,-,8,2
+83,Farosh's Claw,"",Material,-,-,8,2
+84,Light Dragon's Talon,"",Material,-,-,8,2
+85,Shard of Dinraal's Fang,"",Material,-,-,10,2.5
+86,Shard of Naydra's Fang,"",Material,-,-,10,2.5
+87,Shard of Farosh's Fang,"",Material,-,-,10,2.5
+88,Shard of Light Dragon's Fang,"",Material,-,-,10,2.5
+89,Dinraal's Horn,"",Material,-,-,15,3.75
+90,Naydra's Horn,"",Material,-,-,15,3.75
+91,Farosh's Horn,"",Material,-,-,15,3.75
+92,Light Dragon's Horn,"",Material,-,-,15,3.75

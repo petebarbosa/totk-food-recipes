@@ -1,0 +1,12 @@
+"",If the meal has a duration
+Effect,Effect duration set to 1:00,Effect duration set to 10:00,Effect duration set to 30:00
+Chance,33%,33%,33%
+"",If Hearty meal or (Health recovery is 0 and meal has an effect)
+Effect,Effect level set to Min level of the effect,Effect level gets the SSAV of the effect added to it
+Chance,50%,50%
+"",If health recovery is not 0 and meal has an effect
+Effect,Health recovery set to 1 (¼ Heart),Health recovery +12 (+3 Hearts),Effect level set to Min level of the effect,Effect level gets the SSAV of the effect added to it
+Chance,25%,25%,25%,25%
+"",If health recovery is not 0 and meal has no effect
+Effect,Health recovery set to 1 (¼ Heart),Health recovery +12 (+3 Hearts)
+Chance,50%,50%

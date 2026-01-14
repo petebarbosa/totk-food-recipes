@@ -1,0 +1,158 @@
+Name,"",Requirement n°1,Requirement n°2,Requirement n°3,Requirement n°4,Requirement n°5,Bonus health
+Fairy Tonic,"",Fairy,Zonai object or inedible vegetable,-,-,-,-12
+Fairy Tonic,"",Fairy,Ore,Insect,Enemy,-,-12
+Fairy Tonic,"",Fairy,Insect,Enemy,-,-,-12
+Fairy Tonic,"",Fairy,Ore or Enemy or Insect,-,-,-,-12
+Dubious Food,"",Inedible vegetable,-,-,-,-,-
+Dubious Food,"",Zonai object,-,-,-,-,-
+Rock-Hard Food,"",Ore,-,-,-,-,-
+Elixir,"",Enemy,Insect,-,-,-,-
+Dubious Food,"",Enemy or Insect,-,-,-,-,-
+Fruitcake,"",Apple or Wildberry or Golden Apple,Wildberry or Voltfruit or Hydromelon or Mighty Bananas or Palm Fruit or Apple or Golden Apple,Tabantha Wheat,Cane Sugar,-,4
+Seafood Paella,"",Mighty Porgy or Armored Porgy,Razorclaw Crab or Ironshell Crab,Hylian Rice,Goat Butter,Rock Salt,-
+Dark Stew,"",Dark Clump,Meat,Fish,-,-,-
+Dark Rice Ball,"",Dark Clump,Rock Salt,Hylian Rice,-,-,-
+Dark Soup,"",Dark Clump,Tabantha Wheat,Goat Butter,Fresh Milk,-,-
+Dark Curry,"",Dark Clump,Goron Spice,Hylian Rice,-,-,-
+Dark Cake,"",Dark Clump,Cane Sugar,Tabantha Wheat,Goat Butter,-,-
+Monster Curry,"",Hylian Rice,Goron Spice,Monster Extract,-,-,-
+Monster Rice Ball,"",Hylian Rice,Rock Salt,Monster Extract,-,-,-
+Monster Cake,"",Tabantha Wheat,Cane Sugar,Monster Extract,Goat Butter,-,-
+Monster Soup,"",Tabantha Wheat,Goat Butter,Fresh Milk,Monster Extract,-,-
+Monster Stew,"",Meat,Fish,Monster Extract,-,-,-
+Creamy Heart Soup,"",Hearty Radish or Big Hearty Radish,Voltfruit,Hydromelon,Fresh Milk,-,-
+Snail Chowder,"",Sneaky River Snail,Tabantha Wheat,Fresh Milk,Goat Butter,-,-
+Pumpkin Stew,"",Fortified Pumpkin or Sun Pumpkin,Tabantha Wheat,Fresh Milk,Goat Butter,-,-
+Gourmet Meat Stew,"",Raw Gourmet Meat or Raw Whole Bird,Tabantha Wheat,Fresh Milk,Goat Butter,-,-
+Prime Meat Stew,"",Raw Prime Meat or Raw Bird Thigh,Tabantha Wheat,Fresh Milk,Goat Butter,-,-
+Meat Stew,"",Raw Meat or Raw Bird Drumstick,Tabantha Wheat,Fresh Milk,Goat Butter,-,-
+Gourmet Meat Curry,"",Raw Gourmet Meat,Hylian Rice,Goron Spice,-,-,-
+Gourmet Poultry Curry,"",Raw Whole Bird,Hylian Rice,Goron Spice,-,-,-
+Prime Meat Curry,"",Raw Prime Meat,Hylian Rice,Goron Spice,-,-,-
+Prime Poultry Curry,"",Raw Bird Thigh,Hylian Rice,Goron Spice,-,-,-
+Meat Curry,"",Raw Meat,Hylian Rice,Goron Spice,-,-,-
+Poultry Curry,"",Raw Bird Drumstick,Hylian Rice,Goron Spice,-,-,-
+Seafood Curry,"",Mighty Porgy or Armored Porgy,Hylian Rice,Goron Spice,-,-,-
+Vegetable Curry,"",Fortified Pumpkin or Sun Pumpkin or Swift Carrot or Endura Carrot,Hylian Rice,Goron Spice,-,-,-
+Pumpkin Pie,"",Fortified Pumpkin or Sun Pumpkin,Tabantha Wheat,Cane Sugar,Goat Butter,-,-
+Carrot Cake,"",Swift Carrot or Endura Carrot,Tabantha Wheat,Cane Sugar,Goat Butter,-,-
+Wildberry Crepe,"",Tabantha Wheat,Fresh Milk,Bird Egg,Cane Sugar,Wildberry,16
+Honey Crepe,"",Tabantha Wheat,Fresh Milk,Bird Egg,Cane Sugar,Courser Bee Honey,4
+Plain Crepe,"",Tabantha Wheat,Fresh Milk,Bird Egg,Cane Sugar,-,-
+Apple Pie,"",Apple or Golden Apple,Tabantha Wheat,Goat Butter,Cane Sugar,-,-
+Nutcake,"",Tabantha Wheat,Goat Butter,Cane Sugar,Acorn or Chickaloo Tree Nut,-,-
+Egg Tart,"",Bird Egg,Tabantha Wheat,Goat Butter,Cane Sugar,-,-
+Egg Pudding,"",Bird Egg,Fresh Milk,Cane Sugar,-,-,-
+Fried Bananas,"",Mighty Bananas,Tabantha Wheat,Cane Sugar,-,-,-
+Fruit Pie,"",Fruit,Tabantha Wheat,Goat Butter,Cane Sugar,-,-
+Meat Pie,"",Meat,Tabantha Wheat,Goat Butter,Rock Salt,-,-
+Fish Pie,"",Fish,Tabantha Wheat,Goat Butter,Rock Salt,-,-
+Salmon Meunière,"",Hearty Salmon,Goat Butter,Tabantha Wheat,-,-,-
+Salmon Risotto,"",Hearty Salmon,Hylian Rice,Rock Salt,Goat Butter,-,-
+Crab Risotto,"",Razorclaw Crab or Ironshell Crab or Bright-Eyed Crab,Hylian Rice,Rock Salt,Goat Butter,-,-
+Vegetable Risotto,"",Fortified Pumpkin or Sun Pumpkin or Swift Carrot or Endura Carrot,Hylian Rice,Rock Salt,Goat Butter,-,-
+Mushroom Risotto,"",Mushroom,Hylian Rice,Rock Salt,Goat Butter,-,-
+Cream of Mushroom Soup,"",Mushroom,Plant,Rock Salt,Fresh Milk,-,-
+Veggie Cream Soup,"",Fortified Pumpkin or Sun Pumpkin or Swift Carrot or Endura Carrot,Rock Salt,Fresh Milk,-,-,-
+Creamy Meat Soup,"",Meat,Plant,Rock Salt,Fresh Milk,-,-
+Creamy Seefood Soup,"",Fish,Plant,Rock Salt,Fresh Milk,-,-
+Cream of Vegetable Soup,"",Plant,Rock Salt,Fresh Milk,-,-,-
+Veggie Porridge,"",Plant,Hylian Rice,Fresh Milk,-,-,-
+Fruity Tomato Stew,"",Hylian Tomato,Fresh Milk,Rock Salt,-,-,-
+Steamed Tomatoes,"",Plant,Hylian Tomato,-,-,-,-
+Tomato Mushroom Stew,"",Mushroom,Hylian Tomato,-,-,-,-
+Tomato Seafood Soup,"",Fish,Hylian Tomato,-,-,-,-
+Crunchy Fried Rice,"",Meat,Oil Jar,Hylian Rice,Bird Egg,-,-
+Cheesecake,"",Hateno Cheese,Tabantha Wheat,Cane Sugar,-,-,-
+Cheesy Risotto,"",Fish or Mushroom or Plant,Hateno Cheese,Hylian Rice,Rock Salt,-,-
+Cheesy Omelette,"",Mushroom or Plant,Hateno Cheese,Bird Egg,Rock Salt,-,-
+Noble Pursuit,"",Palm Fruit,Hydromelon,Voltfruit,Rock Salt,-,-
+Hylian Tomato Pizza,"",Hylian Tomato,Tabantha Wheat,Hateno Cheese,-,-,-
+Fragrant Seafood Stew,"",Fish,Stambulb,Oil Jar,-,-,-
+Deep-Fried Drumstick,"",Raw Bird Drumstick,Oil Jar,-,-,-,-
+Deep-Fried Thigh,"",Raw Bird Thigh,Oil Jar,-,-,-,-
+Deep-Fried Bird Roast,"",Raw Whole Bird,Oil Jar,-,-,-,-
+Melty Cheesy Bread,"",Tabantha Wheat,Hateno Cheese,-,-,-,-
+Cheesy Baked Fish,"",Fish,Hateno Cheese,-,-,-,-
+Cheesy Curry,"",Hylian Rice,Hateno Cheese,Goron Spice,-,-,-
+Cheesy Meat Bowl,"",Raw Meat,Hylian Rice,Hateno Cheese,Rock Salt,-,-
+Prime Cheesy Meat Bowl,"",Raw Prime Meat,Hylian Rice,Hateno Cheese,Rock Salt,-,-
+Gourmet Cheesy Meat Bowl,"",Raw Gourmet Meat,Hylian Rice,Hateno Cheese,Rock Salt,-,-
+Cheesy Tomato,"",Hylian Tomato,Hateno Cheese,-,-,-,-
+Carrot Stew,"",Swift Carrot or Endura Carrot,Goat Butter,Fresh Milk,Tabantha Wheat,-,-
+Mushroom Omelet,"",Mushroom,Bird Egg,Rock Salt,Goat Butter,-,-
+Crab Omelet with Rice,"",Razorclaw Crab or Ironshell Crab or Bright-Eyed Crab,Bird Egg,Hylian Rice,Rock Salt,-,-
+Gourmet Poultry Pilaf,"",Raw Whole Bird,Bird Egg,Hylian Rice,Goat Butter,-,-
+Prime Poultry Pilaf,"",Raw Bird Thigh,Bird Egg,Hylian Rice,Goat Butter,-,-
+Poultry Pilaf,"",Raw Bird Drumstick,Bird Egg,Hylian Rice,Goat Butter,-,-
+Vegetable Omelet,"",Plant,Bird Egg,Goat Butter,Rock Salt,-,-
+Porgy Meunière,"",Mighty Porgy or Armored Porgy,Goat Butter,Tabantha Wheat,-,-,-
+Seafood Meunière,"",Fish,Goat Butter,Tabantha Wheat,-,-,-
+Seafood Fried Rice,"",Mighty Porgy or Armored Porgy,Hylian Rice,Rock Salt,-,-,-
+Curry Pilaf,"",Goron Spice,Hylian Rice,Goat Butter,-,-,-
+Gourmet Meat and Rice Bowl,"",Raw Gourmet Meat,Hylian Rice,Rock Salt,-,-,-
+Prime Meat and Rice Bowl,"",Raw Prime Meat,Hylian Rice,Rock Salt,-,-,-
+Meat and Rice Bowl,"",Raw Meat,Hylian Rice,Rock Salt,-,-,-
+Meaty Rice Balls,"",Meat,Hylian Rice,-,-,-,-
+Seafood Rice Balls,"",Fish,Hylian Rice,-,-,-,-
+Mushroom Rice Balls,"",Mushroom,Hylian Rice,-,-,-,-
+Veggie Rice Balls,"",Plant,Hylian Rice,-,-,-,-
+Hot Buttered Apple,"",Apple or Golden Apple,Goat Butter,-,-,-,-
+Meat-Stuffed Pumpkin,"",Fortified Pumpkin or Sun Pumpkin,Meat,-,-,-,-
+Glazed Meat,"",Meat,Courser Bee Honey,-,-,-,-
+Glazed Seefood,"",Fish,Courser Bee Honey,-,-,-,-
+Glazed Mushrooms,"",Mushroom,Courser Bee Honey,-,-,-,-
+Glazed Veggies,"",Plant,Courser Bee Honey,-,-,-,-
+Curry Rice,"",Hylian Rice,Goron Spice,-,-,-,-
+Honeyed Apple,"",Apple of Golden Apple,Courser Bee Honey,-,-,-,-
+Honeyed Fruits,"",Fruit,Courser Bee Honey,-,-,-,-
+Gourmet Spiced Meat Skewer,"",Raw Gourmet Meat,Goron Spice,-,-,-,-
+Prime Spiced Meat Skewer,"",Raw Prime Meat,Goron Spice,-,-,-,-
+Spiced Meat Skewer,"",Raw Meat,Goron Spice,-,-,-,-
+Fragrant Mushroom Sauté,"",Mushroom,Goron Spice,-,-,-,-
+Herb Sauté,"",Plant,Goron Spice,-,-,-,-
+Salt-Grilled Gourmet Meat,"",Raw Gourmet Meat or Raw Whole Bird,Rock Salt,-,-,-,-
+Salt-Grilled Prime Meat,"",Raw Prime Meat or Raw Bird Thigh,Rock Salt,-,-,-,-
+Salt-Grilled Meat,"",Raw Meat or Raw Bird Drumstick,Rock Salt,-,-,-,-
+Crab Stir-Fry,"",Razorclaw Crab or Ironshell Crab or Bright-Eyed Crab,Goron Spice,-,-,-,-
+Salt-Grilled Crab,"",Razorclaw Crab or Ironshell Crab or Bright-Eyed Crab,Rock Salt,-,-,-,-
+Fruity Tomato Stew,"",Hylian Tomato,Fresh Milk,Rock Salt,-,-,-
+Salt-Grilled Fish,"",Fish,Rock Salt,-,-,-,-
+Wheat Bread,"",Tabantha Wheat,Rock Salt,-,-,-,-
+Salt-Grilled Greens,"",Plant,Rock Salt,-,-,-,-
+Salt-Grilled Mushrooms,"",Mushroom,Rock Salt,-,-,-,-
+Copious Meat Skewers,"",Meat,Meat,Meat,Meat,-,-
+Copious Fried Wild Greens,"",Plant,Plant,Plant,Plant,-,-
+Copious Simmered Fruits,"",Fruit,Fruit,Fruit,Fruit,-,-
+Copious Mushroom Skewers,"",Mushroom,Mushroom,Mushroom,Mushroom,-,-
+Copious Seafood Skewers,"",Fish,Fish,Fish,Fish,-,-
+Meat Skewer,"",Meat,Meat,-,-,-,-
+Simmered Fruits,"",Fruit,Fruit,-,-,-,-
+Mushroom Skewer,"",Mushroom,Mushroom,-,-,-,-
+Fried Wild Greens,"",Plant,Plant,-,-,-,-
+Gourmet Meat and Seafood Fry,"",Raw Gourmet Meat or Raw Whole Bird,Fish,-,-,-,-
+Prime Meat and Seafood Fry,"",Raw Prime Meat or Raw Bird Thigh,Fish,-,-,-,-
+Meat and Seafood Fry,"",Meat,Fish,-,-,-,-
+Pepper Steak,"",Meat,Spicy Pepper,-,-,-,-
+Pepper Seafood,"",Fish,Spicy Pepper,-,-,-,-
+Seafood Skewer,"",Sneaky River Snail or Razorclaw Crab or Ironshell Crab or Bright-Eyed Crab,Fish,-,-,-,-
+Fish Skewer,"",Fish,Fish,-,-,-,-
+Steamed Meat,"",Meat,Plant,-,-,-,-
+Steamed Fish,"",Plant,Fish,-,-,-,-
+Steamed Mushrooms,"",Plant,Mushroom,-,-,-,-
+Steamed Fruit,"",Plant,Fruit,-,-,-,-
+Fish and Mushroom Skewer,"",Mushroom,Fish,-,-,-,-
+Meat and Mushroom Skewer,"",Mushroom,Meat,-,-,-,-
+Fruit and Mushroom Mix,"",Mushroom,Fruit,-,-,-,-
+Fried Wild Greens,"",Stambulb,Goat Butter,Dark Clump,-,-,-
+Buttered Stambulb,"",Stambulb,Goat Butter,-,-,-,-
+Meat Skewer,"",Meat,-,-,-,-,-
+Seafood Skewer,"",Sneaky River Snail or Razorclaw Crab or Ironshell Crab or Bright-Eyed Crab,-,-,-,-,-
+Fish Skewer,"",Fish,-,-,-,-,-
+Omelet,"",Bird Egg,-,-,-,-,-
+Milk,"",Fresh Milk,-,-,-,-,-
+Mushroom Skewer,"",Mushroom,-,-,-,-,-
+Fried Wild Greens,"",Plant,-,-,-,-,-
+Simmered Fruits,"",Fruit,-,-,-,-,-
+Sautéed Nuts,"",Acorn,Chickaloo Tree Nut,-,-,-,-
+Fairy Tonic,"",Fairy,-,-,-,-,-12
