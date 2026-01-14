@@ -4,6 +4,20 @@ This document tracks significant changes made to the codebase to provide context
 
 ---
 
+## [2026-01-13] - Hide cook button for non-pot recipes & remove redundant effect variants
+
+### Changed
+- Hide "Cook this recipe" button for non-pot recipes (fire/cold-cooked items)
+  - These include: Baked, Roasted, Toasted, Toasty, Frozen, Icy, Seared, Charred, Campfire, Hard-boiled, Warm, Blackened, Blueshell items
+  - Plus specific items: Sneaky River Escargot, Bright Mushroom Skewer
+
+### Removed
+- Removed 19 redundant effect-variant recipes from the database
+  - Effect variants like "Energizing Steamed Fish" are redundant since the effect is already visible when adding ingredients
+  - Removed: Sunny Mushroom Skewer, Enduring Fruit and Mushroom Mix, Energizing Steamed Fish/Fruit/Meat/Mushrooms, Fireproof Fish and Mushroom Skewer/Fried Wild Greens/Glazed Meat/Mushroom/Seafood/Veggies/Meat and Mushroom Skewer/Omelet, Hasty Copious Fried Wild Greens/Simmered Fruit, Mighty Fish Skewer/Meat Skewer/Simmered Fruit
+
+---
+
 ## [2026-01-13] - Fix ingredient click not adding to cooking pot
 
 **Type:** Bug Fix

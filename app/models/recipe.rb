@@ -6,6 +6,25 @@ class Recipe < ApplicationRecord
 
   validates :name, presence: true, uniqueness: true
 
+  # Prefixes for fire/cold-cooked items (made by fire or cold exposure, NOT in cooking pot)
+  FIRE_COLD_PREFIXES = %w[
+    Baked Blackened Blueshell Campfire Charred Frozen
+    Hard-boiled Icy Roasted Seared Toasted Toasty Warm
+  ].freeze
+
+  # Specific recipe names that don't follow prefix patterns but are fire/cold-cooked
+  FIRE_COLD_SPECIFIC_NAMES = [
+    "Sneaky River Escargot",
+    "Bright Mushroom Skewer"
+  ].freeze
+
+  def cookable?
+    return false if FIRE_COLD_SPECIFIC_NAMES.include?(name)
+    return false if FIRE_COLD_PREFIXES.any? { |prefix| name.start_with?(prefix) }
+
+    true
+  end
+
   scope :matching_ingredient, ->(ingredient) {
     joins(:recipe_requirements)
       .where(
