@@ -19,6 +19,34 @@ module ApplicationHelper
     CATEGORY_EMOJIS[ingredient.category] || "🍽️"
   end
 
+  def ingredient_image_path(ingredient)
+    filename = ingredient.name.downcase.gsub(/[^a-z0-9]+/, "_").gsub(/^_|_$/, "") + ".png"
+    "ingredients/#{filename}"
+  end
+
+  def ingredient_image_tag(ingredient, size: :medium, **html_options)
+    path = ingredient_image_path(ingredient)
+
+    if image_exists?(path)
+      size_classes = case size
+      when :small then "w-6 h-6"
+      when :medium then "w-10 h-10"
+      when :large then "w-16 h-16"
+      else "w-10 h-10"
+      end
+
+      default_options = {
+        class: "#{size_classes} object-contain #{html_options[:class]}".strip,
+        alt: ingredient.name,
+        title: ingredient.name
+      }
+
+      image_tag(path, default_options.merge(html_options.except(:class)))
+    else
+      content_tag(:span, ingredient_emoji(ingredient), class: "text-2xl", title: ingredient.name)
+    end
+  end
+
   def format_duration(seconds)
     minutes = seconds / 60
     remaining_seconds = seconds % 60
@@ -44,5 +72,13 @@ module ApplicationHelper
     when "Glow" then "text-amber-400"
     else "text-stone-400"
     end
+  end
+
+  private
+
+  def image_exists?(path)
+    Rails.application.assets.load_path.find(path).present?
+  rescue StandardError
+    false
   end
 end

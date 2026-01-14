@@ -4,6 +4,25 @@ This document tracks significant changes made to the codebase to provide context
 
 ---
 
+## [2026-01-13] - Add ingredient images to Cooking Pot and search results
+
+**Type:** Feature
+
+**Summary:** Replaced emoji-based ingredient display with actual game images in the Cooking Pot UI and ingredient search results
+
+**Why:** Improve visual fidelity and user experience by showing recognizable ingredient images from the game
+
+**Files Changed:**
+- `app/assets/images/ingredients/` - Added 202 ingredient images from TotK wiki
+- `app/helpers/application_helper.rb` - Added `ingredient_image_path` and `ingredient_image_tag` helpers with emoji fallback
+- `app/views/cooking/_slot.html.erb` - Updated to use ingredient images instead of category emojis
+- `app/views/ingredients/_ingredient.html.erb` - Added ingredient thumbnails to search results
+- `test/helpers/application_helper_test.rb` - Added tests for new helper methods
+
+**Related:** N/A
+
+---
+
 ## [2026-01-13] - Enable smart ingredient search with word-start matching
 
 **Type:** Feature
