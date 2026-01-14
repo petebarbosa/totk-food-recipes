@@ -4,6 +4,25 @@ This document tracks significant changes made to the codebase to provide context
 
 ---
 
+## [2026-01-13] - Add recipe images to Cooking Preview and Matching Recipes
+
+**Type:** Feature
+
+**Summary:** Added recipe images to the Cooking Preview section and Matching Recipes cards for visual dish identification
+
+**Why:** Improve visual recognition of recipes by showing actual dish images from the game alongside calculated stats
+
+**Files Changed:**
+- `app/assets/images/recipes/` - Added 229 recipe images from TotK wiki
+- `app/helpers/application_helper.rb` - Added `recipe_image_path` and `recipe_image_tag` helpers with 🥘 emoji fallback
+- `app/views/cooking/_result.html.erb` - Added recipe image to Cooking Preview section
+- `app/views/recipes/_card.html.erb` - Added recipe thumbnails to Matching Recipes cards
+- `test/helpers/application_helper_test.rb` - Added tests for recipe image helper methods
+
+**Related:** [2026-01-13] - Add ingredient images to Cooking Pot and search results
+
+---
+
 ## [2026-01-13] - Add ingredient images to Cooking Pot and search results
 
 **Type:** Feature

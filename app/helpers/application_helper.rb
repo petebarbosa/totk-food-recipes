@@ -58,6 +58,36 @@ module ApplicationHelper
     end
   end
 
+  def recipe_image_path(recipe_or_name)
+    name = recipe_or_name.is_a?(String) ? recipe_or_name : recipe_or_name.name
+    filename = name.downcase.gsub(/[^a-z0-9]+/, "_").gsub(/^_|_$/, "") + ".png"
+    "recipes/#{filename}"
+  end
+
+  def recipe_image_tag(recipe_or_name, size: :medium, **html_options)
+    name = recipe_or_name.is_a?(String) ? recipe_or_name : recipe_or_name.name
+    path = recipe_image_path(recipe_or_name)
+
+    if image_exists?(path)
+      size_classes = case size
+      when :small then "w-8 h-8"
+      when :medium then "w-12 h-12"
+      when :large then "w-20 h-20"
+      else "w-12 h-12"
+      end
+
+      default_options = {
+        class: "#{size_classes} object-contain #{html_options[:class]}".strip,
+        alt: name,
+        title: name
+      }
+
+      image_tag(path, default_options.merge(html_options.except(:class)))
+    else
+      content_tag(:span, "🥘", class: "text-2xl", title: name)
+    end
+  end
+
   def effect_color_class(effect_type)
     case effect_type
     when "Cold Resistance" then "text-blue-400"

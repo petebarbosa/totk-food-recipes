@@ -50,4 +50,44 @@ class ApplicationHelperTest < ActionView::TestCase
     large_result = ingredient_image_tag(ingredient, size: :large)
     assert_includes large_result, "w-16 h-16"
   end
+
+  # Recipe image helper tests
+  test "recipe_image_path generates correct path from recipe" do
+    recipe = recipes(:apple_pie)
+    assert_equal "recipes/apple_pie.png", recipe_image_path(recipe)
+  end
+
+  test "recipe_image_path handles string input" do
+    assert_equal "recipes/mushroom_skewer.png", recipe_image_path("Mushroom Skewer")
+  end
+
+  test "recipe_image_path handles special characters" do
+    assert_equal "recipes/salt_grilled_meat.png", recipe_image_path("Salt-Grilled Meat")
+  end
+
+  test "recipe_image_tag returns image tag when image exists" do
+    recipe = recipes(:apple_pie)
+    result = recipe_image_tag(recipe)
+    assert_includes result, "<img"
+    assert_includes result, 'alt="Apple Pie"'
+  end
+
+  test "recipe_image_tag returns emoji fallback when image missing" do
+    result = recipe_image_tag("NonExistent Recipe")
+    assert_includes result, "🥘"
+    assert_includes result, "<span"
+  end
+
+  test "recipe_image_tag applies size classes" do
+    recipe = recipes(:apple_pie)
+
+    small_result = recipe_image_tag(recipe, size: :small)
+    assert_includes small_result, "w-8 h-8"
+
+    medium_result = recipe_image_tag(recipe, size: :medium)
+    assert_includes medium_result, "w-12 h-12"
+
+    large_result = recipe_image_tag(recipe, size: :large)
+    assert_includes large_result, "w-20 h-20"
+  end
 end
