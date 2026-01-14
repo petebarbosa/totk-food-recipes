@@ -1,0 +1,17 @@
+# Render Blueprint Specification
+# https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: totk-food-recipes
+    runtime: docker
+    plan: free
+    envVars:
+      - key: RAILS_MASTER_KEY
+        sync: false  # Must be set manually in Render dashboard
+      - key: RAILS_ENV
+        value: production
+      - key: RAILS_LOG_TO_STDOUT
+        value: "true"
+      - key: RAILS_SERVE_STATIC_FILES
+        value: "true"

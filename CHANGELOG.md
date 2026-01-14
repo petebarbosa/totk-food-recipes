@@ -4,6 +4,22 @@ This document tracks significant changes made to the codebase to provide context
 
 ---
 
+## [2026-01-14] - Add Render deployment support for ephemeral storage
+
+**Type:** Config
+
+**Summary:** Modified docker-entrypoint to auto-seed database on empty DB, added render.yaml for Render Blueprint deployments
+
+**Why:** Enable deployment to Render's free tier which has ephemeral storage - database is wiped on each deploy, requiring automatic seeding
+
+**Files Changed:**
+- `bin/docker-entrypoint` - Added conditional db:seed when database is empty
+- `render.yaml` - New Render Blueprint configuration file
+
+**Related:** N/A
+
+---
+
 ## [2026-01-13] - Add recipe images to Cooking Preview and Matching Recipes
 
 **Type:** Feature
