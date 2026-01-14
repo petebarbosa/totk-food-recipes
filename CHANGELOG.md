@@ -4,6 +4,30 @@ This document tracks significant changes made to the codebase to provide context
 
 ---
 
+## [2026-01-13] - Comprehensive ingredient database update
+
+**Type:** Data
+
+**Summary:** Updated ingredients.csv with 202 ingredients from official TotK materials list including:
+- 15 fruits (Apple, Dazzlefruit, Fire Fruit, Golden Apple, Hydromelon, etc.)
+- 17 seasonings/dairy/grains (Cane Sugar, Goat Butter, Bird Egg, Hylian Rice, etc.)
+- 6 meats (Raw Meat variants, Raw Bird variants)
+- 115 monster parts (Bokoblin, Moblin, Lizalfos, Lynel, Dragon parts, etc.)
+- 11 minerals (Amber, Diamond, Ruby, Sapphire, etc.)
+- 16 herbs (Armoranth, Blue Nightshade, Cool Safflina, Sundelion, etc.)
+- 15 mushrooms (Hearty Truffle, Chillshroom, Ironshroom, etc.)
+- 6 vegetables (Big Hearty Radish, Endura Carrot, Fortified Pumpkin, etc.)
+- Special items (Fairy, Star Fragment, Dark Clump)
+
+**Why:** Expand the ingredient database to include all cookable materials from the game for comprehensive recipe matching
+
+**Files Changed:**
+- `db/csv/ingredients.csv` - Complete rewrite with 202 ingredients (previously had 53)
+
+**Related:** N/A
+
+---
+
 ## [2026-01-13] - Fix remove ingredient/clear pot/select recipe not updating frontend
 
 **Type:** Bug Fix
