@@ -1,20 +1,21 @@
 # Recipe requirement fixtures for testing
+# Note: requirement_value for category requirements now use cook_tags (Fruit, Mushroom, Meat, Fish, Plant, Spice, etc.)
 
-# Simmered Fruit - requires any Fruit
+# Simmered Fruit - requires any ingredient with Fruit tag
 simmered_fruit_req:
   recipe: simmered_fruit
   ingredient:
   requirement_type: category
   requirement_value: Fruit
 
-# Mushroom Skewer - requires any Mushroom
+# Mushroom Skewer - requires any ingredient with Mushroom tag
 mushroom_skewer_req:
   recipe: mushroom_skewer
   ingredient:
   requirement_type: category
   requirement_value: Mushroom
 
-# Meat Skewer - requires any Meat
+# Meat Skewer - requires any ingredient with Meat tag
 meat_skewer_req:
   recipe: meat_skewer
   ingredient:
@@ -77,3 +78,16 @@ dubious_food_req:
   ingredient:
   requirement_type: logic
   requirement_value: Incompatible Ingredients
+
+# Fruit and Mushroom Mix - requires Mushroom + Fruit
+fruit_mushroom_mix_mushroom:
+  recipe: fruit_and_mushroom_mix
+  ingredient:
+  requirement_type: category
+  requirement_value: Mushroom
+
+fruit_mushroom_mix_fruit:
+  recipe: fruit_and_mushroom_mix
+  ingredient:
+  requirement_type: category
+  requirement_value: Fruit

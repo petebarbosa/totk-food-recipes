@@ -55,4 +55,16 @@ class Ingredient < ApplicationRecord
   def critical_cook_guaranteed?
     boost_type == "Critical_Cook"
   end
+
+  def has_cook_tag?(tag)
+    cook_tags.include?(tag)
+  end
+
+  def matches_requirement?(requirement_value)
+    # Check if ingredient name matches exactly (specific requirement)
+    return true if name == requirement_value
+
+    # Check if any cook tag matches (category requirement)
+    cook_tags.include?(requirement_value)
+  end
 end

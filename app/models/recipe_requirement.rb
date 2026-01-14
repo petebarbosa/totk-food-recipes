@@ -16,7 +16,7 @@ class RecipeRequirement < ApplicationRecord
   def matches?(ingredient)
     case requirement_type
     when "category"
-      ingredient.category == requirement_value
+      ingredient.matches_requirement?(requirement_value)
     when "specific"
       ingredient.name == requirement_value
     when "logic"

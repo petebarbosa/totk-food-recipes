@@ -14,13 +14,16 @@ recipes_file = Rails.root.join("db", "csv", "recipes.csv")
 
 puts "   Cooking up Ingredients..."
 CSV.foreach(ingredients_file, headers: true) do |row|
+  cook_tags = row["Cook_Tags"]&.split("|")&.map(&:strip) || []
+
   Ingredient.create!(
     name: row["Name"],
     category: row["Category"],
     hearts_raw: row["Hearts_Raw"].to_f,
     effect_type: row["Effect_Type"] == "None" ? nil : row["Effect_Type"],
     effect_points: row["Effect_Points"].to_i,
-    boost_type: row["Boost_Type"] == "None" ? nil : row["Boost_Type"]
+    boost_type: row["Boost_Type"] == "None" ? nil : row["Boost_Type"],
+    cook_tags: cook_tags
   )
 end
 puts "   ✅ Created #{Ingredient.count} ingredients"

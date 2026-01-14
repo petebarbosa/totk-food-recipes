@@ -10,10 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_01_13_201214) do
+ActiveRecord::Schema[8.1].define(version: 2026_01_14_143255) do
   create_table "ingredients", force: :cascade do |t|
     t.string "boost_type"
     t.string "category", null: false
+    t.json "cook_tags", default: []
     t.datetime "created_at", null: false
     t.integer "effect_points", default: 0
     t.string "effect_type"

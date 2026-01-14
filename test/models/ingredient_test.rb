@@ -97,4 +97,53 @@ class IngredientTest < ActiveSupport::TestCase
     apple = ingredients(:apple)
     assert_not apple.critical_cook_guaranteed?
   end
+
+  # Tag matching tests
+  test "has_cook_tag? returns true when ingredient has the tag" do
+    apple = ingredients(:apple)
+    assert apple.has_cook_tag?("Fruit")
+    assert apple.has_cook_tag?("Apple")
+  end
+
+  test "has_cook_tag? returns false when ingredient does not have the tag" do
+    apple = ingredients(:apple)
+    assert_not apple.has_cook_tag?("Mushroom")
+  end
+
+  test "matches_requirement? returns true for matching tag" do
+    apple = ingredients(:apple)
+    assert apple.matches_requirement?("Fruit")
+    assert apple.matches_requirement?("Apple")
+  end
+
+  test "matches_requirement? returns true for exact name match" do
+    apple = ingredients(:apple)
+    assert apple.matches_requirement?("Apple")
+  end
+
+  test "matches_requirement? returns false for non-matching requirement" do
+    apple = ingredients(:apple)
+    assert_not apple.matches_requirement?("Mushroom")
+    assert_not apple.matches_requirement?("Fish")
+  end
+
+  test "apple matches both Fruit and Apple requirements" do
+    apple = ingredients(:apple)
+    # Can be used in Simmered Fruit (requires Fruit tag)
+    assert apple.matches_requirement?("Fruit")
+    # Can be used in Apple Pie (requires Apple specifically)
+    assert apple.matches_requirement?("Apple")
+  end
+
+  test "fish ingredient with sub-tag matches both Fish and specific tag" do
+    mighty_porgy = ingredients(:mighty_porgy)
+    assert mighty_porgy.matches_requirement?("Fish")
+    assert mighty_porgy.matches_requirement?("Porgy")
+  end
+
+  test "crab matches Fish tag for seafood recipes" do
+    razorclaw_crab = ingredients(:razorclaw_crab)
+    assert razorclaw_crab.matches_requirement?("Fish")
+    assert razorclaw_crab.matches_requirement?("Crab")
+  end
 end

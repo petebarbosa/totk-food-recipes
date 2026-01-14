@@ -4,6 +4,46 @@ This document tracks significant changes made to the codebase to provide context
 
 ---
 
+## [2026-01-14] - Implement Tag-Based Recipe Matching System
+
+**Type:** Feature / Bug Fix
+
+**Summary:** Implemented a comprehensive tag-based recipe matching system that correctly filters recipes based on whether ALL pot ingredients can be accommodated. Added missing Fish/Seafood/Critter ingredients.
+
+**Why:** The previous system used direct category matching which failed for:
+- Sub-categories (Apple vs Fruit, Porgy vs Fish, Pumpkin vs Plant)
+- Missing ingredient types (Fish, Crabs, Snails, Critters)
+- Filtering logic (showed recipes even when some ingredients couldn't be used)
+
+**Key Changes:**
+- Ingredients now have `cook_tags` array for flexible matching
+- Apple has tags `["Fruit", "Apple"]` so it matches both Simmered Fruit and Apple Pie
+- Recipe matching filters out recipes that can't accommodate ALL pot ingredients
+- Added 35 new Fish/Seafood/Critter ingredients (total now 237 ingredients)
+
+**Tag Hierarchy:**
+- `Fruit` → with sub-tags like `Apple`
+- `Plant` → with sub-tags like `Carrot`, `Pumpkin`, `Hearty Radish`
+- `Meat` → with sub-tags like `Prime Meat`, `Gourmet Meat`
+- `Fish` → with sub-tags like `Porgy`, `Trout`, `Crab`, `Snail`
+- `Mushroom`, `Nut`, `Spice`, `Enemy`, `Ore`, `Insect`, `Fairy`, `Special`
+
+**Files Changed:**
+- `db/migrate/20260114143255_add_cook_tags_to_ingredients.rb` - New migration
+- `db/csv/ingredients.csv` - Added Cook_Tags column and 35 new ingredients
+- `db/seeds.rb` - Parse cook_tags from CSV
+- `app/models/ingredient.rb` - Added `has_cook_tag?` and `matches_requirement?` methods
+- `app/models/recipe_requirement.rb` - Updated `matches?` for tag-based matching
+- `app/services/recipe_matcher.rb` - Updated accommodation filtering to use tags
+- `test/fixtures/ingredients.yml` - Added cook_tags to fixtures, added fish fixtures
+- `test/fixtures/recipe_requirements.yml` - Updated comments for tag-based matching
+- `test/models/ingredient_test.rb` - Added tag matching tests
+- `test/services/recipe_matcher_test.rb` - Updated tests for tag-based matching
+
+**Related:** Aligns recipe filtering with actual TotK cooking mechanics from tears_cooking_guide.md
+
+---
+
 ## [2026-01-14] - Add Render deployment support for ephemeral storage
 
 **Type:** Config

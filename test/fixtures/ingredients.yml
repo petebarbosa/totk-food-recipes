@@ -6,6 +6,7 @@ apple:
   effect_type:
   effect_points: 0
   boost_type:
+  cook_tags: ["Fruit", "Apple"]
 
 golden_apple:
   name: Golden Apple
@@ -14,6 +15,7 @@ golden_apple:
   effect_type:
   effect_points: 0
   boost_type: Critical_Cook
+  cook_tags: ["Fruit", "Apple"]
 
 hylian_shroom:
   name: Hylian Shroom
@@ -22,6 +24,7 @@ hylian_shroom:
   effect_type:
   effect_points: 0
   boost_type:
+  cook_tags: ["Mushroom"]
 
 spicy_pepper:
   name: Spicy Pepper
@@ -30,6 +33,7 @@ spicy_pepper:
   effect_type: Cold Resistance
   effect_points: 1
   boost_type:
+  cook_tags: ["Fruit"]
 
 sunshroom:
   name: Sunshroom
@@ -38,6 +42,7 @@ sunshroom:
   effect_type: Cold Resistance
   effect_points: 2
   boost_type:
+  cook_tags: ["Mushroom"]
 
 chillshroom:
   name: Chillshroom
@@ -46,6 +51,7 @@ chillshroom:
   effect_type: Heat Resistance
   effect_points: 2
   boost_type:
+  cook_tags: ["Mushroom"]
 
 raw_meat:
   name: Raw Meat
@@ -54,6 +60,7 @@ raw_meat:
   effect_type:
   effect_points: 0
   boost_type:
+  cook_tags: ["Meat"]
 
 tabantha_wheat:
   name: Tabantha Wheat
@@ -61,7 +68,8 @@ tabantha_wheat:
   hearts_raw: 1.0
   effect_type:
   effect_points: 0
-  boost_type:
+  boost_type: Duration_Up
+  cook_tags: ["Spice"]
 
 cane_sugar:
   name: Cane Sugar
@@ -70,6 +78,7 @@ cane_sugar:
   effect_type:
   effect_points: 0
   boost_type: Duration_Up
+  cook_tags: ["Spice"]
 
 goat_butter:
   name: Goat Butter
@@ -78,14 +87,16 @@ goat_butter:
   effect_type:
   effect_points: 0
   boost_type: Duration_Up
+  cook_tags: ["Spice"]
 
 hylian_tomato:
   name: Hylian Tomato
-  category: Vegetable
+  category: Fruit
   hearts_raw: 1.0
   effect_type:
   effect_points: 0
   boost_type:
+  cook_tags: ["Fruit"]
 
 light_dragons_claw:
   name: Light Dragon's Claw
@@ -94,3 +105,32 @@ light_dragons_claw:
   effect_type:
   effect_points: 0
   boost_type: Duration_Large
+  cook_tags: ["Enemy"]
+
+# Fish fixtures for testing
+hyrule_bass:
+  name: Hyrule Bass
+  category: Fish
+  hearts_raw: 1.0
+  effect_type:
+  effect_points: 0
+  boost_type:
+  cook_tags: ["Fish"]
+
+mighty_porgy:
+  name: Mighty Porgy
+  category: Fish
+  hearts_raw: 1.0
+  effect_type: Attack Up
+  effect_points: 1
+  boost_type:
+  cook_tags: ["Fish", "Porgy"]
+
+razorclaw_crab:
+  name: Razorclaw Crab
+  category: Seafood
+  hearts_raw: 1.0
+  effect_type: Attack Up
+  effect_points: 1
+  boost_type:
+  cook_tags: ["Fish", "Crab"]

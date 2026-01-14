@@ -11,13 +11,16 @@ class RecipeMatcher
     return [] if ingredients.empty?
 
     recipes = Recipe.excluding_special.includes(:recipe_requirements)
-    matches = recipes.map do |recipe|
+    matches = recipes.filter_map do |recipe|
+      # Skip recipes that cannot accommodate all pot ingredients
+      next unless can_accommodate_all_ingredients?(recipe)
+
       details = match_details(recipe)
       { recipe: recipe, **details } if details[:matched_count] > 0
-    end.compact
+    end
 
     # Sort by percentage descending, then by total requirements ascending (simpler recipes first)
-    matches.sort_by { |m| [-m[:percentage], m[:total_required]] }
+    matches.sort_by { |m| [ -m[:percentage], m[:total_required] ] }
   end
 
   def match_details(recipe)
@@ -97,5 +100,27 @@ class RecipeMatcher
       percentage: 0,
       fully_matched: true
     }
+  end
+
+  def can_accommodate_ingredient?(recipe, ingredient)
+    requirements = recipe.recipe_requirements.reject { |r| r.requirement_type == "logic" }
+    return false if requirements.empty?
+
+    requirements.any? do |req|
+      case req.requirement_type
+      when "category"
+        ingredient.matches_requirement?(req.requirement_value)
+      when "specific"
+        ingredient.name == req.requirement_value
+      else
+        false
+      end
+    end
+  end
+
+  def can_accommodate_all_ingredients?(recipe)
+    return true if ingredients.empty?
+
+    ingredients.all? { |ingredient| can_accommodate_ingredient?(recipe, ingredient) }
   end
 end

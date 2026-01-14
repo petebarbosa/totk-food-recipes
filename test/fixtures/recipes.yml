@@ -22,3 +22,7 @@ apple_pie:
 dubious_food:
   name: Dubious Food
   base_hearts: 0
+
+fruit_and_mushroom_mix:
+  name: Fruit and Mushroom Mix
+  base_hearts: 0
