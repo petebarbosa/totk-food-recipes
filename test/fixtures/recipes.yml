@@ -26,3 +26,15 @@ dubious_food:
 fruit_and_mushroom_mix:
   name: Fruit and Mushroom Mix
   base_hearts: 0
+
+steamed_meat:
+  name: Steamed Meat
+  base_hearts: 2
+
+pepper_steak:
+  name: Pepper Steak
+  base_hearts: 3
+
+meat_and_mushroom_skewer:
+  name: Meat and Mushroom Skewer
+  base_hearts: 3

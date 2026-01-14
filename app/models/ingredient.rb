@@ -8,9 +8,10 @@ class Ingredient < ApplicationRecord
 
   EFFECT_TYPES = %w[
     None Cold\ Resistance Heat\ Resistance Shock\ Resistance
-    Stamina\ Recovery Extra\ Hearts Attack\ Up Defense\ Up
+    Stamina\ Recovery Extra\ Hearts Extra\ Stamina Attack\ Up Defense\ Up
     Stealth\ Up Glow Speed\ Up Slip\ Resistance Gloom\ Recovery
-    Gloom\ Resistance
+    Gloom\ Resistance Flame\ Guard Hot\ Weather\ Attack
+    Cold\ Weather\ Attack Stormy\ Weather\ Attack Swim\ Speed\ Up
   ].freeze
 
   BOOST_TYPES = %w[None Critical_Cook Duration_Up Duration_Small Duration_Large].freeze

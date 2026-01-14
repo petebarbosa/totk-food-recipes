@@ -134,3 +134,30 @@ razorclaw_crab:
   effect_points: 1
   boost_type:
   cook_tags: ["Fish", "Crab"]
+
+hearty_radish:
+  name: Hearty Radish
+  category: Vegetable
+  hearts_raw: 2.5
+  effect_type: Extra Hearts
+  effect_points: 3
+  boost_type:
+  cook_tags: ["Plant", "Hearty Radish"]
+
+cool_safflina:
+  name: Cool Safflina
+  category: Herb
+  hearts_raw: 0
+  effect_type: Heat Resistance
+  effect_points: 1
+  boost_type:
+  cook_tags: ["Plant"]
+
+stamella_shroom:
+  name: Stamella Shroom
+  category: Mushroom
+  hearts_raw: 0.5
+  effect_type: Stamina Recovery
+  effect_points: 1
+  boost_type:
+  cook_tags: ["Mushroom"]

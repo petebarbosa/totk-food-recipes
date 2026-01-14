@@ -11,16 +11,33 @@ class RecipeMatcher
     return [] if ingredients.empty?
 
     recipes = Recipe.excluding_special.includes(:recipe_requirements)
-    matches = recipes.filter_map do |recipe|
-      # Skip recipes that cannot accommodate all pot ingredients
-      next unless can_accommodate_all_ingredients?(recipe)
 
+    all_matches = recipes.filter_map do |recipe|
       details = match_details(recipe)
       { recipe: recipe, **details } if details[:matched_count] > 0
     end
 
-    # Sort by percentage descending, then by total requirements ascending (simpler recipes first)
-    matches.sort_by { |m| [ -m[:percentage], m[:total_required] ] }
+    return [] if all_matches.empty?
+
+    fully_matched = all_matches.select { |m| m[:fully_matched] }
+    partial_matched = all_matches.reject { |m| m[:fully_matched] }
+
+    if fully_matched.empty?
+      # No fully matched recipes, show all partial matches
+      return sort_matches(all_matches)
+    end
+
+    # Find the max ingredients used by any fully matched recipe
+    max_fully_matched_count = fully_matched.map { |m| m[:matched_count] }.max
+
+    # Keep fully matched recipes that use the max ingredients
+    best_fully_matched = fully_matched.select { |m| m[:matched_count] == max_fully_matched_count }
+
+    # Also keep partial matches where the recipe's total requirements > max_fully_matched_count
+    # These are recipes that COULD use more ingredients if completed (discovery suggestions)
+    promising_partial = partial_matched.select { |m| m[:total_required] > max_fully_matched_count }
+
+    sort_matches(best_fully_matched + promising_partial)
   end
 
   def match_details(recipe)
@@ -76,6 +93,16 @@ class RecipeMatcher
 
   private
 
+  def sort_matches(matches)
+    matches.sort_by do |m|
+      specific_matched_count = m[:matched_requirements].count do |mr|
+        mr[:requirement].requirement_type == "specific"
+      end
+      # Sort by: fully matched first, then specific requirements, then total requirements
+      [ m[:fully_matched] ? 0 : 1, -specific_matched_count, -m[:total_required], -m[:percentage] ]
+    end
+  end
+
   def empty_match_details
     {
       matched_count: 0,
@@ -100,27 +127,5 @@ class RecipeMatcher
       percentage: 0,
       fully_matched: true
     }
-  end
-
-  def can_accommodate_ingredient?(recipe, ingredient)
-    requirements = recipe.recipe_requirements.reject { |r| r.requirement_type == "logic" }
-    return false if requirements.empty?
-
-    requirements.any? do |req|
-      case req.requirement_type
-      when "category"
-        ingredient.matches_requirement?(req.requirement_value)
-      when "specific"
-        ingredient.name == req.requirement_value
-      else
-        false
-      end
-    end
-  end
-
-  def can_accommodate_all_ingredients?(recipe)
-    return true if ingredients.empty?
-
-    ingredients.all? { |ingredient| can_accommodate_ingredient?(recipe, ingredient) }
   end
 end

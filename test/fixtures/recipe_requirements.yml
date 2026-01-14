@@ -91,3 +91,42 @@ fruit_mushroom_mix_fruit:
   ingredient:
   requirement_type: category
   requirement_value: Fruit
+
+# Steamed Meat - requires Meat + Plant
+steamed_meat_meat:
+  recipe: steamed_meat
+  ingredient:
+  requirement_type: category
+  requirement_value: Meat
+
+steamed_meat_plant:
+  recipe: steamed_meat
+  ingredient:
+  requirement_type: category
+  requirement_value: Plant
+
+# Pepper Steak - requires Meat + Spicy Pepper (specific)
+pepper_steak_meat:
+  recipe: pepper_steak
+  ingredient:
+  requirement_type: category
+  requirement_value: Meat
+
+pepper_steak_pepper:
+  recipe: pepper_steak
+  ingredient: spicy_pepper
+  requirement_type: specific
+  requirement_value: Spicy Pepper
+
+# Meat and Mushroom Skewer - requires Meat + Mushroom
+meat_mushroom_skewer_meat:
+  recipe: meat_and_mushroom_skewer
+  ingredient:
+  requirement_type: category
+  requirement_value: Meat
+
+meat_mushroom_skewer_mushroom:
+  recipe: meat_and_mushroom_skewer
+  ingredient:
+  requirement_type: category
+  requirement_value: Mushroom

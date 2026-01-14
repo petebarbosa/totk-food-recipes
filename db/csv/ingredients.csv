@@ -1,238 +1,246 @@
 ID,Name,Category,Hearts_Raw,Effect_Type,Effect_Points,Boost_Type,Cook_Tags
-1,Apple,Fruit,0.5,None,0,None,Fruit|Apple
-2,Dazzlefruit,Fruit,0.25,None,0,None,Fruit
-3,Fire Fruit,Fruit,0.25,Hot Weather Attack,1,None,Fruit
-4,Fleet-Lotus Seeds,Fruit,0.5,Speed Up,1,None,Fruit
-5,Golden Apple,Fruit,1.5,None,0,Critical_Cook,Fruit|Apple
-6,Hydromelon,Fruit,0.5,Heat Resistance,1,None,Fruit
-7,Hylian Tomato,Fruit,1.0,None,0,None,Fruit
-8,Ice Fruit,Fruit,0.25,Cold Weather Attack,1,None,Fruit
-9,Mighty Bananas,Fruit,0.5,Attack Up,2,None,Fruit
-10,Palm Fruit,Fruit,1.0,None,0,None,Fruit
-11,Shock Fruit,Fruit,0.25,Stormy Weather Attack,1,None,Fruit
-12,Spicy Pepper,Fruit,0.5,Cold Resistance,1,None,Fruit
-13,Splash Fruit,Fruit,0.25,Swim Speed Up,1,None,Fruit
-14,Voltfruit,Fruit,0.5,Shock Resistance,1,None,Fruit
-15,Wildberry,Fruit,0.5,None,0,None,Fruit
-16,Acorn,Nut,0.25,None,0,None,Nut
-17,Bird Egg,Dairy,1.0,None,0,Duration_Up,Spice
+1,Apple,Fruit,1.0,None,0,None,Fruit|Apple
+2,Dazzlefruit,Fruit,0.5,None,0,None,Fruit
+3,Fire Fruit,Fruit,0.5,Hot Weather Attack,1,None,Fruit
+4,Fleet-Lotus Seed,Fruit,1.0,Speed Up,2,None,Fruit
+5,Golden Apple,Fruit,3.0,None,0,Critical_Cook,Fruit|Apple
+6,Hydromelon,Fruit,1.0,Heat Resistance,1,None,Fruit
+7,Hylian Tomato,Fruit,2.0,None,0,None,Fruit
+8,Ice Fruit,Fruit,0.5,Cold Weather Attack,1,None,Fruit
+9,Mighty Bananas,Fruit,1.0,Attack Up,2,None,Fruit
+10,Palm Fruit,Fruit,2.0,None,0,None,Fruit
+11,Shock Fruit,Fruit,0.5,Stormy Weather Attack,1,None,Fruit
+12,Spicy Pepper,Fruit,1.0,Cold Resistance,1,None,Fruit
+13,Splash Fruit,Fruit,0.5,Swim Speed Up,1,None,Fruit
+14,Voltfruit,Fruit,1.0,Shock Resistance,1,None,Fruit
+15,Wildberry,Fruit,1.0,None,0,None,Fruit
+16,Acorn,Seasoning,0.5,None,0,Duration_Up,Spice|Nut
+17,Bird Egg,Seasoning,2.0,None,0,Duration_Up,Spice
 18,Cane Sugar,Seasoning,0,None,0,Duration_Up,Spice
-19,Chickaloo Tree Nut,Nut,0.25,None,0,Duration_Up,Nut
-20,Courser Bee Honey,Seasoning,2.0,Stamina Recovery,2,None,Spice
-21,Dark Clump,Special,0,Gloom Resistance,1,None,Special
-22,Fairy,Special,5.0,None,0,None,Fairy
-23,Fresh Milk,Dairy,0.5,None,0,Duration_Up,Spice
+19,Chickaloo Tree Nut,Seasoning,0.5,None,0,Duration_Up,Spice|Nut
+20,Courser Bee Honey,Seasoning,4.0,Stamina Recovery,2,None,Spice
+21,Dark Clump,Seasoning,0,Gloom Resistance,1,None,Spice
+22,Fairy,Special,10.0,None,0,None,Other
+23,Fresh Milk,Seasoning,1.0,None,0,Duration_Up,Spice
 24,Goat Butter,Seasoning,0,None,0,Duration_Up,Spice
 25,Goron Spice,Seasoning,0,None,0,Duration_Up,Spice
-26,Hateno Cheese,Seasoning,0,None,0,None,Spice
-27,Hylian Pine Cone,Seasoning,0,None,0,None,Spice
-28,Hylian Rice,Grain,1.0,None,0,Duration_Up,Spice
-29,Monster Extract,Seasoning,0,None,0,Duration_Up,Spice|Enemy
-30,Oil Jar,Seasoning,0,None,0,None,Spice
-31,Star Fragment,Special,0,None,0,Critical_Cook,Special
-32,Tabantha Wheat,Grain,1.0,None,0,Duration_Up,Spice
-33,Wood,Special,0,None,0,None,Special
-34,Raw Bird Drumstick,Meat,1.0,None,0,Duration_Up,Meat
-35,Raw Bird Thigh,Meat,1.5,None,0,Duration_Up,Meat|Prime Meat
-36,Raw Gourmet Meat,Meat,3.0,None,0,Duration_Up,Meat|Gourmet Meat
-37,Raw Meat,Meat,1.0,None,0,Duration_Up,Meat
-38,Raw Prime Meat,Meat,1.5,None,0,Duration_Up,Meat|Prime Meat
-39,Raw Whole Bird,Meat,3.0,None,0,Duration_Up,Meat|Gourmet Meat
-40,Aerocuda Eyeball,Monster Part,0,None,0,Duration_Up,Enemy
-41,Aerocuda Wing,Monster Part,0,None,0,None,Enemy
-42,Black Bokoblin Horn,Monster Part,0,None,0,Duration_Up,Enemy
-43,Black Boss Bokoblin Horn,Monster Part,0,None,0,Duration_Up,Enemy
-44,Black Hinox Horn,Monster Part,0,None,0,Duration_Up,Enemy
-45,Black Horriblin Horn,Monster Part,0,None,0,Duration_Up,Enemy
-46,Black Lizalfos Horn,Monster Part,0,None,0,Duration_Up,Enemy
-47,Black Lizalfos Tail,Monster Part,0,None,0,None,Enemy
-48,Black Moblin Horn,Monster Part,0,None,0,Duration_Up,Enemy
-49,Blue Bokoblin Horn,Monster Part,0,None,0,Duration_Up,Enemy
-50,Blue Boss Bokoblin Horn,Monster Part,0,None,0,Duration_Up,Enemy
-51,Blue Hinox Horn,Monster Part,0,None,0,Duration_Up,Enemy
-52,Blue Horriblin Horn,Monster Part,0,None,0,Duration_Up,Enemy
-53,Blue Lizalfos Horn,Monster Part,0,None,0,Duration_Up,Enemy
-54,Blue Lizalfos Tail,Monster Part,0,None,0,None,Enemy
-55,Blue Moblin Horn,Monster Part,0,None,0,Duration_Up,Enemy
-56,Blue-Maned Lynel Mace Horn,Monster Part,0,None,0,Duration_Up,Enemy
-57,Blue-Maned Lynel Saber Horn,Monster Part,0,None,0,Duration_Up,Enemy
-58,Blue-White Frox Fang,Monster Part,0,None,0,Duration_Up,Enemy
-59,Bokoblin Fang,Monster Part,0,None,0,Duration_Up,Enemy
-60,Bokoblin Guts,Monster Part,0,None,0,Duration_Large,Enemy
-61,Bokoblin Horn,Monster Part,0,None,0,Duration_Up,Enemy
-62,Boss Bokoblin Fang,Monster Part,0,None,0,None,Enemy
-63,Boss Bokoblin Guts,Monster Part,0,None,0,Duration_Large,Enemy
-64,Boss Bokoblin Horn,Monster Part,0,None,0,Duration_Up,Enemy
-65,Captain Construct I Horn,Monster Part,0,None,0,None,Enemy
-66,Captain Construct II Horn,Monster Part,0,None,0,None,Enemy
-67,Captain Construct III Horn,Monster Part,0,None,0,None,Enemy
-68,Captain Construct IV Horn,Monster Part,0,None,0,None,Enemy
-69,Chuchu Jelly,Monster Part,0,None,0,Duration_Up,Enemy
-70,Dinraal's Horn,Monster Part,0,None,0,Duration_Large,Enemy
-71,Dinraal's Talon,Monster Part,0,None,0,Duration_Large,Enemy
-72,Electric Keese Eyeball,Monster Part,0,None,0,Duration_Up,Enemy
-73,Electric Keese Wing,Monster Part,0,None,0,Duration_Up,Enemy
-74,Electric Lizalfos Horn,Monster Part,0,None,0,Duration_Up,Enemy
-75,Farosh's Horn,Monster Part,0,None,0,Duration_Large,Enemy
-76,Farosh's Talon,Monster Part,0,None,0,Duration_Large,Enemy
-77,Fire Keese Eyeball,Monster Part,0,None,0,Duration_Up,Enemy
-78,Fire Keese Wing,Monster Part,0,None,0,Duration_Up,Enemy
-79,Fire Like Stone,Monster Part,0,None,0,Duration_Up,Enemy
-80,Fire-Breath Lizalfos Horn,Monster Part,0,None,0,Duration_Up,Enemy
-81,Frox Fang,Monster Part,0,None,0,Duration_Up,Enemy
-82,Frox Fingernail,Monster Part,0,None,0,None,Enemy
-83,Gibdo Bone,Monster Part,0,None,0,Duration_Up,Enemy
-84,Gibdo Guts,Monster Part,0,None,0,None,Enemy
-85,Gibdo Wing,Monster Part,0,None,0,None,Enemy
-86,Gleeok Flame Horn,Monster Part,0,None,0,Duration_Up,Enemy
-87,Gleeok Frost Horn,Monster Part,0,None,0,Duration_Up,Enemy
-88,Gleeok Guts,Monster Part,0,None,0,None,Enemy
-89,Gleeok Thunder Horn,Monster Part,0,None,0,Duration_Up,Enemy
-90,Gleeok Wing,Monster Part,0,None,0,None,Enemy
-91,Hinox Guts,Monster Part,0,None,0,Duration_Large,Enemy
-92,Hinox Horn,Monster Part,0,None,0,Duration_Up,Enemy
-93,Hinox Toenail,Monster Part,0,None,0,Duration_Up,Enemy
-94,Hinox Tooth,Monster Part,0,None,0,Duration_Up,Enemy
-95,Horriblin Claw,Monster Part,0,None,0,None,Enemy
-96,Horriblin Guts,Monster Part,0,None,0,None,Enemy
-97,Horriblin Horn,Monster Part,0,None,0,Duration_Up,Enemy
-98,Ice Keese Eyeball,Monster Part,0,None,0,Duration_Up,Enemy
-99,Ice Keese Wing,Monster Part,0,None,0,Duration_Up,Enemy
-100,Ice Like Stone,Monster Part,0,None,0,Duration_Up,Enemy
-101,Ice-Breath Lizalfos Horn,Monster Part,0,None,0,Duration_Up,Enemy
-102,Icy Lizalfos Tail,Monster Part,0,None,0,Duration_Large,Enemy
-103,Keese Eyeball,Monster Part,0,None,0,Duration_Up,Enemy
-104,Keese Wing,Monster Part,0,None,0,Duration_Up,Enemy
-105,Light Dragon's Claw,Monster Part,0,None,0,Duration_Large,Enemy
-106,Light Dragon's Horn,Monster Part,0,None,0,Duration_Large,Enemy
-107,Light Dragon's Scale,Monster Part,0,None,0,Duration_Up,Enemy
-108,Like Like Stone,Monster Part,0,None,0,Duration_Up,Enemy
-109,Lizalfos Horn,Monster Part,0,None,0,Duration_Up,Enemy
-110,Lizalfos Tail,Monster Part,0,None,0,Duration_Large,Enemy
-111,Lizalfos Talon,Monster Part,0,None,0,Duration_Up,Enemy
-112,Lynel Guts,Monster Part,0,None,0,Duration_Large,Enemy
-113,Lynel Hoof,Monster Part,0,None,0,Duration_Up,Enemy
-114,Lynel Mace Horn,Monster Part,0,None,0,Duration_Up,Enemy
-115,Lynel Saber Horn,Monster Part,0,None,0,Duration_Up,Enemy
-116,Moblin Fang,Monster Part,0,None,0,Duration_Up,Enemy
-117,Moblin Guts,Monster Part,0,None,0,Duration_Large,Enemy
-118,Moblin Horn,Monster Part,0,None,0,Duration_Up,Enemy
-119,Molduga Fin,Monster Part,0,None,0,Duration_Up,Enemy
-120,Molduga Guts,Monster Part,0,None,0,Duration_Large,Enemy
-121,Molduga Jaw,Monster Part,0,None,0,Duration_Up,Enemy
-122,Naydra's Horn,Monster Part,0,None,0,Duration_Large,Enemy
-123,Naydra's Talon,Monster Part,0,None,0,Duration_Large,Enemy
-124,Obsidian Frox Fang,Monster Part,0,None,0,Duration_Up,Enemy
-125,Octo Balloon,Monster Part,0,None,0,Duration_Up,Enemy
-126,Octorok Eyeball,Monster Part,0,None,0,Duration_Up,Enemy
-127,Octorok Tentacle,Monster Part,0,None,0,Duration_Up,Enemy
-128,Red Chuchu Jelly,Monster Part,0,None,0,Duration_Up,Enemy
-129,Red Lizalfos Tail,Monster Part,0,None,0,Duration_Large,Enemy
-130,Shard of Dinraal's Spike,Monster Part,0,None,0,Duration_Up,Enemy
-131,Shard of Farosh's Spike,Monster Part,0,None,0,Duration_Up,Enemy
-132,Shard of Light Dragon's Fang,Monster Part,0,None,0,Duration_Large,Enemy
-133,Shard of Light Dragon's Spike,Monster Part,0,None,0,Duration_Up,Enemy
-134,Shard of Naydra's Spike,Monster Part,0,None,0,Duration_Up,Enemy
-135,Shock Like Stone,Monster Part,0,None,0,Duration_Up,Enemy
-136,Silver Bokoblin Horn,Monster Part,0,None,0,Duration_Up,Enemy
-137,Silver Boss Bokoblin Horn,Monster Part,0,None,0,Duration_Up,Enemy
-138,Silver Horriblin Horn,Monster Part,0,None,0,Duration_Up,Enemy
-139,Silver Lizalfos Horn,Monster Part,0,None,0,Duration_Up,Enemy
-140,Silver Lizalfos Tail,Monster Part,0,None,0,None,Enemy
-141,Silver Lynel Mace Horn,Monster Part,0,None,0,Duration_Up,Enemy
-142,Silver Lynel Saber Horn,Monster Part,0,None,0,Duration_Up,Enemy
-143,Silver Moblin Horn,Monster Part,0,None,0,Duration_Up,Enemy
-144,Soldier Construct Horn,Monster Part,0,None,0,None,Enemy
-145,Soldier Construct II Horn,Monster Part,0,None,0,None,Enemy
-146,Soldier Construct III Horn,Monster Part,0,None,0,None,Enemy
-147,Soldier Construct IV Horn,Monster Part,0,None,0,None,Enemy
-148,King's Scale,Monster Part,0,None,0,None,Enemy
-149,Stalnox Horn,Monster Part,0,None,0,Duration_Up,Enemy
-150,White Chuchu Jelly,Monster Part,0,None,0,Duration_Up,Enemy
-151,White-Maned Lynel Mace Horn,Monster Part,0,None,0,Duration_Up,Enemy
-152,White-Maned Lynel Saber Horn,Monster Part,0,None,0,Duration_Up,Enemy
-153,Yellow Chuchu Jelly,Monster Part,0,None,0,Duration_Up,Enemy
-154,Yellow Lizalfos Tail,Monster Part,0,None,0,Duration_Large,Enemy
-155,Amber,Mineral,0,None,0,None,Ore
-156,Diamond,Mineral,0,None,0,None,Ore
-157,Flint,Mineral,0,None,0,None,Ore
-158,Large Zonaite,Mineral,0,None,0,None,Ore
-159,Luminous Stone,Mineral,0,None,0,None,Ore
-160,Opal,Mineral,0,None,0,None,Ore
-161,Rock Salt,Mineral,0,None,0,None,Ore
-162,Ruby,Mineral,0,None,0,None,Ore
-163,Sapphire,Mineral,0,None,0,None,Ore
-164,Topaz,Mineral,0,None,0,None,Ore
-165,Zonaite,Mineral,0,None,0,None,Ore
-166,Armoranth,Herb,0,Defense Up,1,None,Plant
-167,Blue Nightshade,Herb,0,Stealth Up,1,None,Plant
-168,Bomb Flower,Herb,0,None,0,None,Plant
-169,Brightbloom Seed,Herb,0,None,0,None,Plant
-170,Cool Safflina,Herb,0,Heat Resistance,1,None,Plant
-171,Electric Safflina,Herb,0,Shock Resistance,1,None,Plant
-172,Giant Brightbloom Seed,Herb,0,None,0,None,Plant
-173,Hyrule Herb,Herb,1.0,None,0,None,Plant
-174,Korok Frond,Herb,0.25,None,0,None,Plant
-175,Mighty Thistle,Herb,0,Attack Up,1,None,Plant
-176,Muddle Bud,Herb,0,None,0,None,Plant
-177,Silent Princess,Herb,0,Stealth Up,3,None,Plant
-178,Stambulb,Herb,0.5,Stamina Recovery,1,None,Plant
-179,Sundelion,Herb,0,Gloom Recovery,3,None,Plant
-180,Swift Violet,Herb,0,Speed Up,1,None,Plant
-181,Warm Safflina,Herb,0,Cold Resistance,1,None,Plant
-182,Big Hearty Truffle,Mushroom,3.0,Extra Hearts,4,None,Mushroom
-183,Brightcap,Mushroom,0.5,Glow,1,None,Mushroom
-184,Chillshroom,Mushroom,0.5,Heat Resistance,2,None,Mushroom
-185,Endura Shroom,Mushroom,1.0,Extra Stamina,2,None,Mushroom
-186,Hearty Truffle,Mushroom,2.0,Extra Hearts,2,None,Mushroom
-187,Hylian Shroom,Mushroom,0.5,None,0,None,Mushroom
-188,Ironshroom,Mushroom,0.5,Defense Up,2,None,Mushroom
-189,Puffshroom,Mushroom,0,None,0,None,Mushroom
-190,Razorshroom,Mushroom,0.5,Attack Up,2,None,Mushroom
-191,Rushroom,Mushroom,0.5,Speed Up,2,None,Mushroom
-192,Silent Shroom,Mushroom,0.5,Stealth Up,2,None,Mushroom
-193,Skyshroom,Mushroom,0.5,None,0,None,Mushroom
-194,Stamella Shroom,Mushroom,0.5,Stamina Recovery,2,None,Mushroom
-195,Sunshroom,Mushroom,0.5,Cold Resistance,2,None,Mushroom
-196,Zapshroom,Mushroom,0.5,Shock Resistance,2,None,Mushroom
-197,Big Hearty Radish,Vegetable,4.0,Extra Hearts,5,None,Plant|Hearty Radish
-198,Endura Carrot,Vegetable,2.0,Extra Stamina,4,None,Plant|Carrot
-199,Fortified Pumpkin,Vegetable,0.5,Defense Up,2,None,Plant|Pumpkin
-200,Hearty Radish,Vegetable,2.5,Extra Hearts,3,None,Plant|Hearty Radish
-201,Sun Pumpkin,Vegetable,0.5,Gloom Recovery,1,None,Plant|Pumpkin
-202,Swift Carrot,Vegetable,0.5,Speed Up,2,None,Plant|Carrot
-203,Hyrule Bass,Fish,1.0,None,0,None,Fish
-204,Staminoka Bass,Fish,1.0,Stamina Recovery,1,None,Fish
-205,Hearty Bass,Fish,2.0,Extra Hearts,2,None,Fish
-206,Hearty Salmon,Fish,4.0,Extra Hearts,4,None,Fish
-207,Chillfin Trout,Fish,1.0,Heat Resistance,1,None,Fish|Trout
-208,Sizzlefin Trout,Fish,1.0,Cold Resistance,1,None,Fish|Trout
-209,Voltfin Trout,Fish,1.0,Shock Resistance,1,None,Fish|Trout
-210,Stealthfin Trout,Fish,1.0,Stealth Up,1,None,Fish|Trout
-211,Mighty Carp,Fish,1.0,Attack Up,1,None,Fish
-212,Armored Carp,Fish,1.0,Defense Up,1,None,Fish
-213,Sanke Carp,Fish,1.0,None,0,None,Fish
-214,Mighty Porgy,Fish,1.0,Attack Up,1,None,Fish|Porgy
-215,Armored Porgy,Fish,1.0,Defense Up,1,None,Fish|Porgy
-216,Ancient Arowana,Fish,1.0,None,0,None,Fish
-217,Glowing Cave Fish,Fish,1.0,Glow,1,None,Fish
-218,Razorclaw Crab,Seafood,1.0,Attack Up,1,None,Fish|Crab
-219,Ironshell Crab,Seafood,1.0,Defense Up,1,None,Fish|Crab
-220,Bright-Eyed Crab,Seafood,1.0,Stamina Recovery,1,None,Fish|Crab
-221,Sneaky River Snail,Seafood,1.0,Stealth Up,1,None,Fish|Snail
-222,Hearty Blueshell Snail,Seafood,3.0,Extra Hearts,3,None,Fish|Snail
-223,Hearty Lizard,Critter,0,Extra Hearts,4,None,Insect
-224,Tireless Frog,Critter,0,Extra Stamina,2,None,Insect
-225,Hot-Footed Frog,Critter,0,Speed Up,1,None,Insect
-226,Hightail Lizard,Critter,0,Speed Up,1,None,Insect
-227,Fireproof Lizard,Critter,0,Fireproof,1,None,Insect
-228,Sunset Firefly,Critter,0,Stealth Up,1,None,Insect
-229,Deep Firefly,Critter,0,Glow,1,None,Insect
-230,Cold Darner,Critter,0,Heat Resistance,1,None,Insect
-231,Warm Darner,Critter,0,Cold Resistance,1,None,Insect
-232,Electric Darner,Critter,0,Shock Resistance,1,None,Insect
-233,Restless Cricket,Critter,0,Stamina Recovery,1,None,Insect
-234,Bladed Rhino Beetle,Critter,0,Attack Up,1,None,Insect
-235,Rugged Rhino Beetle,Critter,0,Defense Up,1,None,Insect
-236,Sticky Lizard,Critter,0,Slip Resistance,1,None,Insect
-237,Sticky Frog,Critter,0,Slip Resistance,1,None,Insect
+26,Hateno Cheese,Seasoning,2.0,None,0,Duration_Up,Spice
+27,Hylian Rice,Seasoning,2.0,None,0,Duration_Up,Spice
+28,Monster Extract,Seasoning,0,None,0,None,Spice
+29,Oil Jar,Seasoning,0,None,0,Duration_Up,Spice
+30,Rock Salt,Seasoning,0,None,0,Duration_Up,Spice
+31,Star Fragment,Seasoning,0,None,0,Critical_Cook,Spice
+32,Tabantha Wheat,Seasoning,2.0,None,0,Duration_Up,Spice
+33,Raw Bird Drumstick,Meat,2.0,None,0,None,Meat
+34,Raw Bird Thigh,Meat,3.0,None,0,None,Meat|Prime Meat
+35,Raw Gourmet Meat,Meat,6.0,None,0,None,Meat|Gourmet Meat
+36,Raw Meat,Meat,2.0,None,0,None,Meat
+37,Raw Prime Meat,Meat,3.0,None,0,None,Meat|Prime Meat
+38,Raw Whole Bird,Meat,6.0,None,0,None,Meat|Gourmet Meat
+39,Aerocuda Eyeball,Monster Part,0,None,0,Duration_Up,Enemy
+40,Aerocuda Wing,Monster Part,0,None,0,Duration_Small,Enemy
+41,Black Bokoblin Horn,Monster Part,0,None,0,Duration_Small,Enemy
+42,Black Boss Bokoblin Horn,Monster Part,0,None,0,Duration_Small,Enemy
+43,Black Hinox Horn,Monster Part,0,None,0,Duration_Small,Enemy
+44,Black Horriblin Horn,Monster Part,0,None,0,Duration_Small,Enemy
+45,Black Lizalfos Horn,Monster Part,0,None,0,Duration_Small,Enemy
+46,Black Lizalfos Tail,Monster Part,0,None,0,Duration_Large,Enemy
+47,Black Moblin Horn,Monster Part,0,None,0,Duration_Small,Enemy
+48,Blue Bokoblin Horn,Monster Part,0,None,0,Duration_Small,Enemy
+49,Blue Boss Bokoblin Horn,Monster Part,0,None,0,Duration_Small,Enemy
+50,Blue Hinox Horn,Monster Part,0,None,0,Duration_Small,Enemy
+51,Blue Horriblin Horn,Monster Part,0,None,0,Duration_Small,Enemy
+52,Blue Lizalfos Horn,Monster Part,0,None,0,Duration_Small,Enemy
+53,Blue Lizalfos Tail,Monster Part,0,None,0,Duration_Large,Enemy
+54,Blue Moblin Horn,Monster Part,0,None,0,Duration_Small,Enemy
+55,Blue-Maned Lynel Mace Horn,Monster Part,0,None,0,Duration_Small,Enemy
+56,Blue-Maned Lynel Saber Horn,Monster Part,0,None,0,Duration_Small,Enemy
+57,Blue-White Frox Fang,Monster Part,0,None,0,Duration_Small,Enemy
+58,Bokoblin Fang,Monster Part,0,None,0,Duration_Up,Enemy
+59,Bokoblin Guts,Monster Part,0,None,0,Duration_Large,Enemy
+60,Bokoblin Horn,Monster Part,0,None,0,Duration_Small,Enemy
+61,Boss Bokoblin Fang,Monster Part,0,None,0,Duration_Up,Enemy
+62,Boss Bokoblin Guts,Monster Part,0,None,0,Duration_Large,Enemy
+63,Boss Bokoblin Horn,Monster Part,0,None,0,Duration_Small,Enemy
+64,Captain Construct I Horn,Monster Part,0,None,0,None,Zonai
+65,Captain Construct II Horn,Monster Part,0,None,0,None,Zonai
+66,Captain Construct III Horn,Monster Part,0,None,0,None,Zonai
+67,Captain Construct IV Horn,Monster Part,0,None,0,None,Zonai
+68,Chuchu Jelly,Monster Part,0,None,0,Duration_Small,Enemy
+69,Dinraal's Claw,Monster Part,0,None,0,Critical_Cook,Spice
+70,Dinraal's Horn,Monster Part,0,None,0,Critical_Cook,Spice
+71,Dinraal's Scale,Monster Part,0,None,0,Critical_Cook,Spice
+72,Shard of Dinraal's Fang,Monster Part,0,None,0,Critical_Cook,Spice
+73,Shard of Dinraal's Spike,Monster Part,0,None,0,Duration_Up,Spice
+74,Electric Keese Eyeball,Monster Part,0,None,0,Duration_Up,Enemy
+75,Electric Keese Wing,Monster Part,0,None,0,Duration_Small,Enemy
+76,Electric Lizalfos Horn,Monster Part,0,None,0,Duration_Small,Enemy
+77,Electric Lizalfos Tail,Monster Part,0,None,0,Duration_Large,Enemy
+78,Farosh's Claw,Monster Part,0,None,0,Critical_Cook,Spice
+79,Farosh's Horn,Monster Part,0,None,0,Critical_Cook,Spice
+80,Farosh's Scale,Monster Part,0,None,0,Critical_Cook,Spice
+81,Shard of Farosh's Fang,Monster Part,0,None,0,Critical_Cook,Spice
+82,Shard of Farosh's Spike,Monster Part,0,None,0,Duration_Up,Spice
+83,Fire Keese Eyeball,Monster Part,0,None,0,Duration_Up,Enemy
+84,Fire Keese Wing,Monster Part,0,None,0,Duration_Small,Enemy
+85,Fire Like Stone,Monster Part,0,None,0,Duration_Up,Enemy
+86,Fire-Breath Lizalfos Horn,Monster Part,0,None,0,Duration_Small,Enemy
+87,Fire-Breath Lizalfos Tail,Monster Part,0,None,0,Duration_Large,Enemy
+88,Frox Fang,Monster Part,0,None,0,Duration_Small,Enemy
+89,Frox Fingernail,Monster Part,0,None,0,Duration_Up,Enemy
+90,Frox Guts,Monster Part,0,None,0,Duration_Large,Enemy
+91,Gibdo Bone,Monster Part,0,None,0,Duration_Small,Enemy
+92,Gibdo Guts,Monster Part,0,None,0,Critical_Cook,Enemy
+93,Gibdo Wing,Monster Part,0,None,0,Duration_Small,Enemy
+94,Gleeok Flame Horn,Monster Part,0,None,0,Duration_Small,Zonai
+95,Gleeok Frost Horn,Monster Part,0,None,0,Duration_Small,Zonai
+96,Gleeok Guts,Monster Part,0,None,0,Duration_Large,Enemy
+97,Gleeok Thunder Horn,Monster Part,0,None,0,Duration_Small,Enemy
+98,Gleeok Wing,Monster Part,0,None,0,Duration_Small,Enemy
+99,Hinox Guts,Monster Part,0,None,0,Duration_Large,Enemy
+100,Hinox Horn,Monster Part,0,None,0,Duration_Small,Enemy
+101,Hinox Toenail,Monster Part,0,None,0,Duration_Up,Enemy
+102,Hinox Tooth,Monster Part,0,None,0,Duration_Up,Enemy
+103,Horriblin Claw,Monster Part,0,None,0,Duration_Up,Enemy
+104,Horriblin Guts,Monster Part,0,None,0,Duration_Large,Enemy
+105,Horriblin Horn,Monster Part,0,None,0,Duration_Small,Enemy
+106,Ice Keese Eyeball,Monster Part,0,None,0,Duration_Up,Enemy
+107,Ice Keese Wing,Monster Part,0,None,0,Duration_Small,Enemy
+108,Ice Like Stone,Monster Part,0,None,0,Duration_Up,Enemy
+109,Ice-Breath Lizalfos Horn,Monster Part,0,None,0,Duration_Small,Enemy
+110,Ice-Breath Lizalfos Tail,Monster Part,0,None,0,Duration_Large,Enemy
+111,Keese Eyeball,Monster Part,0,None,0,Duration_Up,Enemy
+112,Keese Wing,Monster Part,0,None,0,Duration_Small,Enemy
+113,Light Dragon's Horn,Monster Part,0,None,0,Critical_Cook,Spice
+114,Light Dragon's Scale,Monster Part,0,None,0,Critical_Cook,Spice
+115,Light Dragon's Talon,Monster Part,0,None,0,Critical_Cook,Spice
+116,Shard of Light Dragon's Fang,Monster Part,0,None,0,Critical_Cook,Spice
+117,Shard of Light Dragon's Spike,Monster Part,0,None,0,Duration_Up,Spice
+118,Like Like Stone,Monster Part,0,None,0,Duration_Up,Enemy
+119,Lizalfos Horn,Monster Part,0,None,0,Duration_Small,Enemy
+120,Lizalfos Tail,Monster Part,0,None,0,Duration_Large,Enemy
+121,Lizalfos Talon,Monster Part,0,None,0,Duration_Up,Enemy
+122,Lynel Guts,Monster Part,0,None,0,Duration_Large,Enemy
+123,Lynel Hoof,Monster Part,0,None,0,Duration_Up,Enemy
+124,Lynel Mace Horn,Monster Part,0,None,0,Duration_Small,Enemy
+125,Lynel Saber Horn,Monster Part,0,None,0,Duration_Small,Enemy
+126,Moblin Fang,Monster Part,0,None,0,Duration_Up,Enemy
+127,Moblin Guts,Monster Part,0,None,0,Duration_Large,Enemy
+128,Moblin Horn,Monster Part,0,None,0,Duration_Small,Enemy
+129,Molduga Fin,Monster Part,0,None,0,Duration_Up,Enemy
+130,Molduga Guts,Monster Part,0,None,0,Duration_Large,Enemy
+131,Molduga Jaw,Monster Part,0,None,0,Duration_Up,Enemy
+132,Naydra's Claw,Monster Part,0,None,0,Critical_Cook,Spice
+133,Naydra's Horn,Monster Part,0,None,0,Critical_Cook,Spice
+134,Naydra's Scale,Monster Part,0,None,0,Critical_Cook,Spice
+135,Shard of Naydra's Fang,Monster Part,0,None,0,Critical_Cook,Spice
+136,Shard of Naydra's Spike,Monster Part,0,None,0,Duration_Up,Spice
+137,Obsidian Frox Fang,Monster Part,0,None,0,Duration_Small,Enemy
+138,Octo Balloon,Monster Part,0,None,0,Duration_Small,Enemy
+139,Octorok Eyeball,Monster Part,0,None,0,Duration_Up,Enemy
+140,Octorok Tentacle,Monster Part,0,None,0,Duration_Up,Enemy
+141,Red Chuchu Jelly,Monster Part,0,None,0,Duration_Up,Enemy
+142,White Chuchu Jelly,Monster Part,0,None,0,Duration_Up,Enemy
+143,Yellow Chuchu Jelly,Monster Part,0,None,0,Duration_Up,Enemy
+144,Shock Like Stone,Monster Part,0,None,0,Duration_Up,Enemy
+145,Silver Bokoblin Horn,Monster Part,0,None,0,Duration_Small,Enemy
+146,Silver Boss Bokoblin Horn,Monster Part,0,None,0,Duration_Small,Enemy
+147,Silver Horriblin Horn,Monster Part,0,None,0,Duration_Small,Enemy
+148,Silver Lizalfos Horn,Monster Part,0,None,0,Duration_Small,Enemy
+149,Silver Lizalfos Tail,Monster Part,0,None,0,Duration_Large,Enemy
+150,Silver Lynel Mace Horn,Monster Part,0,None,0,Duration_Small,Enemy
+151,Silver Lynel Saber Horn,Monster Part,0,None,0,Duration_Small,Enemy
+152,Silver Moblin Horn,Monster Part,0,None,0,Duration_Small,Enemy
+153,Soldier Construct Horn,Monster Part,0,None,0,None,Zonai
+154,Soldier Construct II Horn,Monster Part,0,None,0,None,Zonai
+155,Soldier Construct III Horn,Monster Part,0,None,0,None,Zonai
+156,Soldier Construct IV Horn,Monster Part,0,None,0,None,Zonai
+157,Stalnox Horn,Monster Part,0,None,0,Duration_Small,Enemy
+158,White-Maned Lynel Mace Horn,Monster Part,0,None,0,Duration_Small,Enemy
+159,White-Maned Lynel Saber Horn,Monster Part,0,None,0,Duration_Small,Enemy
+160,Amber,Mineral,0,None,0,None,Ore
+161,Diamond,Mineral,0,None,0,None,Ore
+162,Flint,Mineral,0,None,0,None,Ore
+163,Large Zonaite,Mineral,0,None,0,None,Ore
+164,Luminous Stone,Mineral,0,None,0,None,Ore
+165,Opal,Mineral,0,None,0,None,Ore
+166,Ruby,Mineral,0,None,0,None,Ore
+167,Sapphire,Mineral,0,None,0,None,Ore
+168,Topaz,Mineral,0,None,0,None,Ore
+169,Zonaite,Mineral,0,None,0,None,Ore
+170,Armoranth,Herb,0,Defense Up,1,None,Plant
+171,Blue Nightshade,Herb,0,Stealth Up,1,None,Plant
+172,Bomb Flower,Herb,0,None,0,None,Inedible
+173,Brightbloom Seed,Herb,0,None,0,None,Fruit
+174,Cool Safflina,Herb,0,Heat Resistance,1,None,Plant
+175,Electric Safflina,Herb,0,Shock Resistance,1,None,Plant
+176,Giant Brightbloom Seed,Herb,0,None,0,None,Fruit
+177,Hyrule Herb,Herb,2.0,None,0,None,Plant
+178,Korok Frond,Herb,0.5,None,0,None,Plant
+179,Mighty Thistle,Herb,0,Attack Up,1,None,Plant
+180,Muddle Bud,Herb,0,None,0,None,Inedible
+181,Puffshroom,Herb,0,None,0,None,Inedible
+182,Silent Princess,Herb,2.0,Stealth Up,3,None,Plant
+183,Stambulb,Herb,1.0,Stamina Recovery,1,None,Plant
+184,Sundelion,Herb,0,Gloom Recovery,12,None,Plant
+185,Sun Pumpkin,Vegetable,1.0,Gloom Recovery,4,None,Plant|Pumpkin
+186,Swift Violet,Herb,0,Speed Up,2,None,Plant
+187,Warm Safflina,Herb,0,Cold Resistance,1,None,Plant
+188,Big Hearty Truffle,Mushroom,6.0,Extra Hearts,16,None,Mushroom
+189,Brightcap,Mushroom,1.0,Glow,1,None,Mushroom
+190,Chillshroom,Mushroom,1.0,Heat Resistance,2,None,Mushroom
+191,Endura Shroom,Mushroom,2.0,Extra Stamina,1,None,Mushroom
+192,Hearty Truffle,Mushroom,4.0,Extra Hearts,4,None,Mushroom
+193,Hylian Shroom,Mushroom,1.0,None,0,None,Mushroom
+194,Ironshroom,Mushroom,1.0,Defense Up,2,None,Mushroom
+195,Razorshroom,Mushroom,1.0,Attack Up,2,None,Mushroom
+196,Rushroom,Mushroom,1.0,Speed Up,1,None,Mushroom
+197,Silent Shroom,Mushroom,1.0,Stealth Up,2,None,Mushroom
+198,Skyshroom,Mushroom,0.5,None,0,None,Mushroom
+199,Stamella Shroom,Mushroom,1.0,Stamina Recovery,1,None,Mushroom
+200,Sunshroom,Mushroom,1.0,Cold Resistance,2,None,Mushroom
+201,Zapshroom,Mushroom,1.0,Shock Resistance,2,None,Mushroom
+202,Big Hearty Radish,Vegetable,8.0,Extra Hearts,20,None,Plant|Hearty Radish
+203,Endura Carrot,Vegetable,4.0,Extra Stamina,4,None,Plant|Carrot
+204,Fortified Pumpkin,Vegetable,1.0,Defense Up,2,None,Plant|Pumpkin
+205,Hearty Radish,Vegetable,5.0,Extra Hearts,12,None,Plant|Hearty Radish
+206,Swift Carrot,Vegetable,1.0,Speed Up,1,None,Plant|Carrot
+207,Hyrule Bass,Fish,2.0,None,0,None,Fish
+208,Staminoka Bass,Fish,2.0,Stamina Recovery,4,None,Fish
+209,Hearty Bass,Fish,4.0,Extra Hearts,8,None,Fish
+210,Hearty Salmon,Fish,8.0,Extra Hearts,16,None,Fish
+211,Chillfin Trout,Fish,2.0,Heat Resistance,3,None,Fish|Trout
+212,Sizzlefin Trout,Fish,2.0,Cold Resistance,3,None,Fish|Trout
+213,Voltfin Trout,Fish,2.0,Shock Resistance,3,None,Fish|Trout
+214,Stealthfin Trout,Fish,2.0,Stealth Up,2,None,Fish|Trout
+215,Mighty Carp,Fish,2.0,Attack Up,2,None,Fish
+216,Armored Carp,Fish,2.0,Defense Up,2,None,Fish
+217,Sanke Carp,Fish,2.0,None,0,None,Fish
+218,Mighty Porgy,Fish,2.0,Attack Up,3,None,Fish|Porgy
+219,Armored Porgy,Fish,2.0,Defense Up,3,None,Fish|Porgy
+220,Ancient Arowana,Fish,2.0,None,0,None,Fish
+221,Glowing Cave Fish,Fish,2.0,Glow,2,None,Fish
+222,Razorclaw Crab,Seafood,2.0,Attack Up,2,None,Fish|Crab
+223,Ironshell Crab,Seafood,2.0,Defense Up,2,None,Fish|Crab
+224,Bright-Eyed Crab,Seafood,2.0,Stamina Recovery,2,None,Fish|Crab
+225,Sneaky River Snail,Seafood,2.0,Stealth Up,1,None,Fish|Snail
+226,Hearty Lizard,Critter,8.0,Extra Hearts,16,None,Insect
+227,Tireless Frog,Critter,4.0,Extra Stamina,2,None,Insect
+228,Hot-Footed Frog,Critter,0,Speed Up,2,None,Insect
+229,Hightail Lizard,Critter,0,Speed Up,1,None,Insect
+230,Fireproof Lizard,Critter,0,Flame Guard,1,None,Insect
+231,Smotherwing Butterfly,Critter,0,Flame Guard,2,None,Insect
+232,Sunset Firefly,Critter,0,Stealth Up,1,None,Insect
+233,Deep Firefly,Critter,0,Glow,2,None,Insect
+234,Cold Darner,Critter,0,Heat Resistance,2,None,Insect
+235,Warm Darner,Critter,0,Cold Resistance,2,None,Insect
+236,Electric Darner,Critter,0,Shock Resistance,2,None,Insect
+237,Restless Cricket,Critter,0,Stamina Recovery,1,None,Insect
+238,Energetic Rhino Beetle,Critter,0,Stamina Recovery,6,None,Insect
+239,Bladed Rhino Beetle,Critter,0,Attack Up,1,None,Insect
+240,Rugged Rhino Beetle,Critter,0,Defense Up,1,None,Insect
+241,Sticky Lizard,Critter,0,Slip Resistance,1,None,Insect
+242,Sticky Frog,Critter,0,Slip Resistance,2,None,Insect
+243,Winterwing Butterfly,Critter,0,Heat Resistance,1,None,Insect
+244,Summerwing Butterfly,Critter,0,Cold Resistance,1,None,Insect
+245,Thunderwing Butterfly,Critter,0,Shock Resistance,1,None,Insect

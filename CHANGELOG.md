@@ -4,6 +4,125 @@ This document tracks significant changes made to the codebase to provide context
 
 ---
 
+## [2026-01-14] - Comprehensive ingredient and recipe data update from TotK cooking tables
+
+**Type:** Data
+
+**Summary:** Updated ingredients.csv and recipes.csv based on official TotK cooking data tables, fixing naming inconsistencies, adding missing ingredients, and correcting effect values.
+
+**Why:** Align the application data with authoritative game data from the TotK cooking tables documentation.
+
+**Key Changes:**
+
+### Ingredient Model
+- Added new effect types: `Extra Stamina`, `Flame Guard`, `Hot Weather Attack`, `Cold Weather Attack`, `Stormy Weather Attack`, `Swim Speed Up`
+
+### Ingredients CSV (245 total ingredients)
+**Name corrections:**
+- `Fleet-Lotus Seeds` → `Fleet-Lotus Seed`
+- `Dinraal's Talon` → `Dinraal's Claw`
+- `Farosh's Talon` → `Farosh's Claw`
+- `Naydra's Talon` → `Naydra's Claw`
+- `Light Dragon's Claw` → `Light Dragon's Talon`
+- `Icy Lizalfos Tail` → `Ice-Breath Lizalfos Tail`
+- `Red Lizalfos Tail` → `Fire-Breath Lizalfos Tail`
+- `Yellow Lizalfos Tail` → `Electric Lizalfos Tail`
+
+**New ingredients added:**
+- Dragon scales: Dinraal's Scale, Naydra's Scale, Farosh's Scale
+- Dragon fangs: Shard of Dinraal's Fang, Shard of Naydra's Fang, Shard of Farosh's Fang
+- Critters: Energetic Rhino Beetle, Smotherwing Butterfly, Winterwing Butterfly, Summerwing Butterfly, Thunderwing Butterfly
+- Monster parts: Frox Guts
+
+**Effect type corrections:**
+- `Fireproof Lizard`: Changed from `Fireproof` to `Flame Guard`
+- Various critters now use correct effect types
+
+**Hearts_Raw corrections (based on health_ingredients.csv):**
+- Updated all values to match source formula: Hearts_Raw = Hearts added / 2
+- Hearty Lizard: 8.0 hearts (was 0)
+- Tireless Frog: 4.0 hearts (was 0)
+- Silent Princess: 2.0 hearts (was 0)
+
+**Effect_Points corrections (based on effect_ingredients.csv):**
+- Updated potency values to match source data
+- Sundelion: Effect_Points = 12 (Gloom Recovery)
+- Various fish and mushroom potency values corrected
+
+**Boost_Type corrections (based on critical_ingredients.csv and time_ingredients.csv):**
+- Dragon parts: All set to Critical_Cook with Spice cook tag
+- Gibdo Guts: Set to Critical_Cook (100% critical chance)
+- Monster parts: Updated duration modifiers (Duration_Small for horns/wings, Duration_Large for guts/tails)
+
+**Cook_Tags corrections:**
+- Rock Salt: Changed from Ore to Spice
+- Construct horns: Changed to Zonai tag
+- Inedible items (Bomb Flower, Puffshroom, Muddle Bud): Changed to Inedible tag
+
+### Recipes CSV (147 total recipes)
+- Simplified Base_Hearts to 0 for most recipes (hearts calculated from ingredients)
+- Added bonus hearts for special recipes: Wildberry Crepe (+16), Honey Crepe (+4), Fruitcake (+4)
+- Updated Dubious Food to use `[Category:Inedible]` requirement
+- Fixed Seafood Skewer to use `[Category:Snail]` for proper matching
+- Simplified elixir recipe to generic `[Category:Enemy];[Category:Insect]`
+
+**Files Changed:**
+- `app/models/ingredient.rb` - Added new EFFECT_TYPES
+- `db/csv/ingredients.csv` - Complete data overhaul (245 ingredients)
+- `db/csv/recipes.csv` - Simplified and corrected recipes (147 recipes)
+
+**Data Sources:**
+- `.cursor/docs/tears_cooking_tables/ingredients_master.csv`
+- `.cursor/docs/tears_cooking_tables/health_ingredients.csv`
+- `.cursor/docs/tears_cooking_tables/effect_ingredients.csv`
+- `.cursor/docs/tears_cooking_tables/critical_ingredients.csv`
+- `.cursor/docs/tears_cooking_tables/time_ingredients.csv`
+- `.cursor/docs/tears_cooking_tables/normal_recipes.csv`
+- `.cursor/docs/tears_cooking_tables/single_recipes.csv`
+
+**Related:** Aligns with TotK cooking mechanics documentation
+
+---
+
+## [2026-01-14] - Fix recipe matching for extra ingredients and tag mismatch
+
+**Type:** Bug Fix
+
+**Summary:** Fixed recipe matching bugs that caused Dubious Food when valid recipes should match:
+1. Changed recipe requirements from `[Category:Vegetable]` to `[Category:Plant]` to match ingredient cook_tags
+2. Show best fully matched recipes AND promising partial matches for discovery
+3. Extra pot ingredients no longer prevent matching when a recipe is fully satisfied
+4. Updated sorting to prioritize fully matched recipes, then specific requirements
+
+**Why:**
+- Recipes requiring "Vegetable" category never matched because vegetable/herb ingredients use "Plant" cook_tag
+- Extra ingredients (that don't match any recipe requirement) incorrectly caused recipes to be filtered out
+- Single-ingredient recipes were incorrectly showing when better multi-ingredient matches existed
+- Partial matches (discovery suggestions) weren't shown when only one ingredient was in pot
+
+**Key Changes:**
+- Recipe requirements now use `[Category:Plant]` for all vegetable-related recipes (20 recipes updated)
+- `RecipeMatcher#all_matching_recipes` now shows:
+  - Fully matched recipes using the maximum number of pot ingredients
+  - Partial matches that could use MORE ingredients (discovery suggestions)
+- Raw Meat alone shows "Meat Skewer" (can cook) + "Pepper Steak", "Steamed Meat" (suggestions)
+- Raw Meat + Spicy Pepper shows only "Pepper Steak" (uses both, no lesser recipes)
+- Raw Meat + Spicy Pepper + Cool Safflina shows "Pepper Steak" (extra ingredients allowed)
+- Sorting: fully matched first, then specific requirements, then total requirements
+
+**Files Changed:**
+- `db/csv/recipes.csv` - Changed Vegetable to Plant in 20 recipes
+- `app/services/recipe_matcher.rb` - Smart matching with discovery suggestions
+- `test/services/recipe_matcher_test.rb` - Updated tests for correct behavior
+- `test/fixtures/ingredients.yml` - Added hearty_radish, cool_safflina, stamella_shroom fixtures
+- `test/fixtures/recipes.yml` - Added steamed_meat, pepper_steak, meat_and_mushroom_skewer fixtures
+- `test/fixtures/recipe_requirements.yml` - Added requirements for new fixtures
+- `test/integration/recipe_matching_test.rb` - Updated integration tests for correct behavior
+
+**Related:** Aligns recipe matching with actual TotK cooking mechanics per tears_cooking_guide.md
+
+---
+
 ## [2026-01-14] - Implement Tag-Based Recipe Matching System
 
 **Type:** Feature / Bug Fix
